@@ -1,6 +1,3 @@
-@media (min-width: 1200px) {
-
-}
 @media(max-width: 240px){
   /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
@@ -782,7 +779,7 @@
 			background-size: 71%;
 		}
 	}
-  
+
     @media (max-width: 320px) and (orientation:landscape) {
       .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content {
         height:200%;
