@@ -345,8 +345,7 @@
     }
     /*partner.html*/
     .partner .content {
-      background-image: url('../img/service/background.png');
-      background-position: center;
+      background-image: url('../img/partner/background.png');
       background-repeat: no-repeat;
       height: 100%;
       margin-left: 230px;
