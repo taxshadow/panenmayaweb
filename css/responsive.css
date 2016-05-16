@@ -456,7 +456,7 @@
         /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
         margin-left: 0;
-        margin-top: 67px;
+        margin-top: 65px;
         float: left;
         width: 100%;
       }
