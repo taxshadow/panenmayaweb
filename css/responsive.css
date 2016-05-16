@@ -739,7 +739,7 @@
         }
       }
 
-      @media (min-width: 992px) and (max-width: 1329) {
+      @media (min-width: 992px) and (max-width: 1329px) {
         /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
         margin-left: 70px;
