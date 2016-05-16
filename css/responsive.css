@@ -1,5 +1,5 @@
 
-@media(max-width: 240px){
+@media (max-width: 240px){
   /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
         margin-left: 0;        
@@ -141,7 +141,7 @@
           height: 25px;
           margin-left: -5px;
         }
-        .contact .content .col-md-6 textarea{
+        .contact .content .col-md-6 textarea {
           width: 220px; 
           margin-top: 8px;
           margin-left: -5px;
@@ -152,12 +152,13 @@
         #map1{
           display: all;
         }
-        .contact .content .col-md-6 a{
+        .contact .content .col-md-6 a {
         	margin-left: -2%;
         	width: 220px;
         	height: 50px;
         }
     }
+
     @media(min-width: 241px) and (max-width: 320px){
       /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
@@ -311,97 +312,97 @@
         	margin-left: -2%
         	height: 50px;
         }
-    }
-      @media(min-width: 321px) and (max-width: 480px){
+      }
+      @media(min-width: 321px) and (max-width: 480px) {
          /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
-        margin-left: 0;
-        margin-top: 62px;
-        float: left;
-        width: 100%;
-      }
+        .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
+          margin-left: 0;
+          margin-top: 62px;
+          float: left;
+          width: 100%;
+        }
 
-      /*index.html*/
-      .landing .content .btn-primary {
-        width: 16%;
-        font-size: 90%;
-        padding: 3px 0;
-      }
-      /*service.html*/
-      .service .content .col-md-10 .col-md-6 {
-        height: 25%;
-        padding-top: 10%;
-      }
-      .service .content .col-md-10 .col-md-6 img {
-        width: 10%;
-      }
-      .service .content .col-md-10 .col-md-6 h4 {
-        font-size: 110%;
-      }
-      .service .content .col-md-10 .col-md-6 p {
-        font-size: 60%;
-      }
-      .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4 {
-        padding-top: 10px;
-      }
-      .service .content .title {
-        padding-left: 10%; 
-      }
-      .service .content .title h3 {
-        font-size: 100%;
-      }
-      .service .content .title .btn-primary{
-        width: 95%;
-        height: 38px;
-        padding: 3px 0;
-        font-size: 110%;
-      }
-      /*portfolio-1.html*/
-      .portfolio-1 .content .col-md-10 .col-md-6 {
-        height: 50%;
-      }
-      .portfolio-1 .content #scroll-1, .portfolio-1 .content #scroll-2 {
-        margin-left: 32%;
-      }
-      .portfolio-1 .content #scroll-1 .btn-primary img, .portfolio-1 .content #scroll-2 .btn-primary img {
-        width: 80%;
-      }
-      .portfolio-1 .content .title {
-        padding-right: 8%;
-      }
-      .portfolio-1 .content .title h3 {
-        font-size: 90%;
-      }
-      .portfolio-1 .content .title .btn-primary {
-        width: 90%;
-        padding-left: 0;
-        padding-right: 0;
-      }
-      /*portfolio-2.html*/
-      .portfolio-2 .content #scroll-1, .portfolio-2 .content #scroll-2 {
-        margin-left: 45%;
-      }
+        /*index.html*/
+        .landing .content .btn-primary {
+          width: 16%;
+          font-size: 90%;
+          padding: 3px 0;
+        }
+        /*service.html*/
+        .service .content .col-md-10 .col-md-6 {
+          height: 25%;
+          padding-top: 10%;
+        }
+        .service .content .col-md-10 .col-md-6 img {
+          width: 10%;
+        }
+        .service .content .col-md-10 .col-md-6 h4 {
+          font-size: 110%;
+        }
+        .service .content .col-md-10 .col-md-6 p {
+          font-size: 60%;
+        }
+        .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4 {
+          padding-top: 10px;
+        }
+        .service .content .title {
+          padding-left: 10%; 
+        }
+        .service .content .title h3 {
+          font-size: 100%;
+        }
+        .service .content .title .btn-primary{
+          width: 95%;
+          height: 38px;
+          padding: 3px 0;
+          font-size: 110%;
+        }
+        /*portfolio-1.html*/
+        .portfolio-1 .content .col-md-10 .col-md-6 {
+          height: 50%;
+        }
+        .portfolio-1 .content #scroll-1, .portfolio-1 .content #scroll-2 {
+          margin-left: 32%;
+        }
+        .portfolio-1 .content #scroll-1 .btn-primary img, .portfolio-1 .content #scroll-2 .btn-primary img {
+          width: 80%;
+        }
+        .portfolio-1 .content .title {
+          padding-right: 8%;
+        }
+        .portfolio-1 .content .title h3 {
+          font-size: 90%;
+        }
+        .portfolio-1 .content .title .btn-primary {
+          width: 90%;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        /*portfolio-2.html*/
+        .portfolio-2 .content #scroll-1, .portfolio-2 .content #scroll-2 {
+          margin-left: 45%;
+        }
 
-      /*partner.html*/
-      .partner .content .col-xs-12 {
-        height: 16.67%;
-        padding-top: 0;
-      }
-      .partner .content .col-xs-12 img {
-        width: 38%;
-      }
-      .partner .content .title {
-        padding-left: 10%; 
-      }
-      .partner .content .title h3 {
-        font-size: 100%;
-      }
-      .partner .content .title .btn-primary{
-        width: 95%;
-        height: 38px;
-        padding: 3px 0;
-        font-size: 110%;
-      }
+        /*partner.html*/
+        .partner .content .col-xs-12 {
+          height: 16.67%;
+          padding-top: 0;
+        }
+        .partner .content .col-xs-12 img {
+          width: 38%;
+        }
+        .partner .content .title {
+          padding-left: 10%; 
+        }
+        .partner .content .title h3 {
+          font-size: 100%;
+        }
+        .partner .content .title .btn-primary{
+          width: 95%;
+          height: 38px;
+          padding: 3px 0;
+          font-size: 110%;
+        }
 
         /*contact.html*/
        .contact .content{
@@ -738,7 +739,7 @@
         }
       }
 
-      @media (min-width: 992px) and (max-width: 1329) {
+      @media (min-width: 992px) and (max-width: 1329px) {
         /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
         margin-left: 70px;
@@ -746,7 +747,7 @@
       .about .content, .service .content {
         background-size: 280%;
       }
-		.contact .content{
+		.contact .content {
 	        background-size: 250%;
 	    }
 
