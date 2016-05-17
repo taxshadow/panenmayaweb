@@ -1,7 +1,7 @@
 
 @media (max-width: 240px){
   /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
+      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, .partner .content, .contact .content {
         margin-left: 0;        
         margin-top: 50px;
         float: left;
@@ -88,9 +88,6 @@
         width: 100%;
       }
       /*portfolio-in.html*/
-      .portfolio .content #content img {
-        margin-top: 50px;
-      }
       .portfolio .content .col-md-3 h3:nth-child(1) {
         font-size: 8px;
         margin-top: 49px;
@@ -189,7 +186,8 @@
 
     @media(min-width: 241px) and (max-width: 320px){
       /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
+      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content,
+      .portfolio .content, .partner .content, .contact .content {
         margin-left: 0;        
         margin-top: 48px;
         float: left;
@@ -277,9 +275,6 @@
         width: 100%;
       }
       /*portfolio-in.html*/
-      .portfolio .content #content img {
-        margin-top: 50px;
-      }
       .portfolio .content .col-md-3 h3:nth-child(1) {
         font-size: 9px;
         margin-top: 49px;
@@ -369,7 +364,8 @@
       }
       @media(min-width: 321px) and (max-width: 480px) {
          /*content*/
-        .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
+        .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content,
+        .portfolio .content, .partner .content, .contact .content {
           margin-left: 0;
           margin-top: 60px;
           float: left;
@@ -437,9 +433,6 @@
           margin-left: 45%;
         }
         /*portfolio-in.html*/
-      .portfolio .content #content img {
-        margin-top: 50px;
-      }
       .portfolio .content .col-md-3 h3:nth-child(1) {
         font-size: 11px;
         margin-top: 49px;
@@ -533,7 +526,8 @@
 
       @media(min-width: 481px) and (max-width: 640px){
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
+      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .partner .content, .contact .content {
         margin-left: 0;
         margin-top: 65px;
         float: left;
@@ -590,9 +584,6 @@
         margin-left: 46%;
       }
       /*portfolio-in.html*/
-      .portfolio .content #content img {
-        margin-top: 76px;
-      }
       .portfolio .content .col-md-3 h3:nth-child(1) {
         font-size: 14px;
         margin-top: 49px;
@@ -678,7 +669,8 @@
 
       @media(min-width: 641px) and (max-width: 764px){
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
+      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .partner .content, .contact .content {
         margin-left: 0;
         margin-top: 67px;
         float: left;
@@ -724,12 +716,8 @@
         margin-left: 47%;
       }
       /*portfolio-in.html*/
-      .portfolio .content #content img {
-        margin-top: 70px;
-      }
       .portfolio .content .col-md-3 {
         font-size: 11px;
-        margin-top: 52px;
       }
       .portfolio .content .col-md-3 h6 {
         font-size: 9px;
@@ -798,7 +786,8 @@
 
       @media (min-width: 765px) and (max-width: 991px){
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
+      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .partner .content, .contact .content {
         margin-left: 70px;
       }
       .about .content, .service .content {
@@ -879,7 +868,8 @@
 
       @media (min-width: 992px) and (max-width: 1329px) {
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
+      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, 
+      .partner .content, .contact .content {
         margin-left: 70px;
       }
       .about .content, .service .content {
