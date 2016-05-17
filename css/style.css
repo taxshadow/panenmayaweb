@@ -79,13 +79,15 @@
       border-color: rgba(16, 112, 161, 0);
       border-right-color: rgba(22, 160, 200, 0.9);
       border-width: 20px;
-      margin-top: -20px;
+      margin-top: 76px;
     }
     .portfolio .content .title h3 {
       margin-top: 6px;
     }
      .portfolio .content .title h5 {
       margin-left: 20px;
+      margin-top: 4px;
+      margin-bottom: 4px;
      }
     .portfolio .content .title .btn-primary {
       width: 128px;
