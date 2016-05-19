@@ -114,9 +114,10 @@
       background-repeat: no-repeat;
       background-size: 100%;
       margin-left: 16.85%;
-      background-position: 0% 35%;
+      background-position: center;
       height: 100%;
       padding-top: 41%;
+      padding-bottom: 4%;
       padding-left: 64%;
     }
     .landing .content .btn-primary {

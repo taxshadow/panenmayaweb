@@ -11,7 +11,7 @@
       /*index.html*/
       .landing .content {
         background-position: top;
-        padding-top: 50%;
+        padding-top: 49%;
         padding-left: 78%;
       }
       .landing .content .btn-primary {
@@ -385,7 +385,7 @@
         /*index.html*/
         .landing .content {
           background-position: top;
-          padding-top: 50%;
+          padding-top: 51%;
           padding-left: 78%;
         }
         .landing .content .btn-primary {
@@ -554,8 +554,8 @@
       /*index.html*/
       .landing .content {
         background-position: top;
-        padding-left: 78%;
         padding-top: 51%;
+        padding-left: 78%;
       }
       .landing .content .btn-primary {
         width: 70%;
@@ -702,8 +702,13 @@
       }
 
       /*index.html*/
+      .landing .content {
+        background-position: top;
+        padding-top: 51%;
+        padding-left: 78%;
+      }
       .landing .content .btn-primary {
-        width: 15%;
+        width: 70%;
       }
       /*about.html*/
       .about .content .title {
@@ -829,8 +834,13 @@
 
 
       /*index.html*/
+      .landing .content {
+        background-position: top;
+        padding-top: 48%;
+        padding-left: 72%;
+      }
       .landing .content .btn-primary {
-        width: 15%;
+        width: 66%;
       }
       /*about.html*/
       .about .content .title {
@@ -910,8 +920,11 @@
 	    }
 
       /*index.html*/
-      .landing .content .btn-primary {
-        width:16%;
+      .landing .content {
+        background-position: top;
+        padding-top: 50%;
+        padding-left: 73%;
+        padding-bottom: 10%;
       }
       /*service.html*/
       .service .content .title .btn-primary {
