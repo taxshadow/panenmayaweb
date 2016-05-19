@@ -972,6 +972,8 @@
 		}
 	}
 
+  
+
     @media (max-width: 320px) and (orientation:landscape) {
       .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content {
         height:200%;
@@ -986,6 +988,9 @@
       }
     }
     @media (min-width: 481px) and (max-width: 640px) and (orientation:landscape) {
+      .landing .content {
+        height: 105%;
+      }
       .about .content {
         height: 130%;
       }
