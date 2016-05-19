@@ -997,6 +997,9 @@
       }
     }
     @media (min-width: 641px) and (max-width: 764px) and (orientation:landscape) {
+      .landing .content {
+        height: 110%;
+      }
       .about .content {
         height: 130%;
       }
@@ -1008,6 +1011,9 @@
       }
     }
     @media (min-width: 765px) and (max-width: 991px) and (orientation:landscape) {
+      .landing .content {
+        height: 110%;
+      }
       .about .content {
         height: 100%;
       }
