@@ -9,6 +9,11 @@
       }
 
       /*index.html*/
+      .landing .content {
+        background-position: top;
+        padding-top: 50%;
+        padding-left: 78%;
+      }
       .landing .content .btn-primary {
         width: 37px;
         height: 16px;
@@ -195,8 +200,13 @@
       }  
 
       /*index.html*/
+      .landing .content {
+        background-position: top;
+        padding-top: 50%;
+        padding-left: 78%;
+      }
       .landing .content .btn-primary {
-        width: 15%;
+        width: 65%;
         height: 21px;
         font-size: 60%;
         padding: 0 0;
@@ -373,8 +383,13 @@
         }
 
         /*index.html*/
+        .landing .content {
+          background-position: top;
+          padding-top: 50%;
+          padding-left: 78%;
+        }
         .landing .content .btn-primary {
-          width: 16%;
+          width: 70%;
           font-size: 90%;
           padding: 3px 0;
         }
@@ -537,8 +552,13 @@
       }
 
       /*index.html*/
+      .landing .content {
+        background-position: top;
+        padding-left: 78%;
+        padding-top: 51%;
+      }
       .landing .content .btn-primary {
-        width: 15%;
+        width: 70%;
         font-size: 90%;
       }
       /*service.html*/
