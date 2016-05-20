@@ -61,23 +61,25 @@
       }
       /*portfolio-1.html*/
       .portfolio-1 .content {
-        height: 130%;
+        height: 100%;
       }
-      .portfolio-1 .content .col-md-10 .col-md-6 {
-        height: 50%;
+      .portfolio-1 #section .col-md-6 {
+        height: 25%;
       }
-      .portfolio-1 .content #scroll-1, .portfolio-1 .content #scroll-2 {
-        margin-left: 32%;
+      .portfolio-1 .content .up-down-arrows {
+        margin-left: 16.85%;
       }
-      .portfolio-1 .content #scroll-1 .btn-primary, .portfolio-1 .content #scroll-2 .btn-primary {
-        border-width: 0;
-        border-color: transparent;
+      .portfolio-1 .content .up-down-arrows img {
+        width: 25px;
       }
-      .portfolio-1 .content #scroll-1 img, .portfolio-1 .content #scroll-2 img {
-        width: 60%;
+      .portfolio-1 .content .col-md-2 {
+        width: 24.76%;
       }
       .portfolio-1 .content .title {
         padding-left: 5%;
+      }
+      .portfolio-1 .content .title:after {
+        border-width: 14px;
       }
       .portfolio-1 .content .title h3 {
         font-size: 60%;
@@ -253,20 +255,19 @@
       }
       /*portfolio-1.html*/
       .portfolio-1 .content {
-        height: 130%;
+        height: 100%;
       }
-      .portfolio-1 .content .col-md-10 .col-md-6 {
-        height: 50%;
+      .portfolio-1 .content #section .col-md-6 {
+        height: 25%;
       }
-      .portfolio-1 .content #scroll-1, .portfolio-1 .content #scroll-2 {
-        margin-left: 32%;
+      .portfolio-1 .content .up-down-arrows {
+        margin-left: 20.85%;
       }
-      .portfolio-1 .content #scroll-1 .btn-primary, .portfolio-1 .content #scroll-2 .btn-primary {
-        border-width: 0;
-        border-color: transparent;
+      .portfolio-1 .content .up-down-arrows img {
+        width: 30%;
       }
-      .portfolio-1 .content #scroll-1 img, .portfolio-1 .content #scroll-2 img {
-        width: 60%;
+      .portfolio-1 .content .col-md-2 {
+        width: 24.76%;
       }
       .portfolio-1 .content .title {
         padding-left: 5%;
@@ -423,14 +424,14 @@
           font-size: 110%;
         }
         /*portfolio-1.html*/
-        .portfolio-1 .content .col-md-10 .col-md-6 {
-          height: 50%;
+        .portfolio-1 #section .col-xs-12 {
+          height: 25%;
         }
-        .portfolio-1 .content #scroll-1, .portfolio-1 .content #scroll-2 {
-          margin-left: 32%;
+        .portfolio-1 .content .up-down-arrows {
+          margin-left: 27.85%;
         }
-        .portfolio-1 .content #scroll-1 .btn-primary img, .portfolio-1 .content #scroll-2 .btn-primary img {
-          width: 80%;
+        .portfolio-1 .content .col-md-2 {
+          width: 24.76%;
         }
         .portfolio-1 .content .title {
           padding-right: 8%;
@@ -588,8 +589,11 @@
       .portfolio-1 .content .col-md-10 .col-md-6 {
         height: 50%;
       }
-      .portfolio-1 .content #scroll-1, .portfolio-1 .content #scroll-2 {
-        margin-left: 33%;
+      .portfolio-1 #section .col-xs-12 {
+        height: 25%;
+      }
+      .portfolio-1 .content .col-xs-3 {
+        width: 25%;
       }
       .portfolio-1 .content .title {
         padding-right: 10%;
@@ -727,8 +731,11 @@
         width: 90%;
       }
       /*portfolio-1.html*/
-      .portfolio-1 .content .col-md-10 .col-md-6 {
-        height: 50%;
+      .portfolio-1 #section .col-md-6 {
+        height: 25%;
+      }
+      .portfolio-1 .content .col-md-2 {
+        width: 25%;
       }
       .portfolio-1 .content .title h3 {
         font-size: 150%;
@@ -819,6 +826,16 @@
         }
       }
 
+      @media (min-width: 765px) and (max-width: 768px){
+        .portfolio-1 #section .col-md-6 {
+          height: 25%;
+          width: 100%;
+        }
+        .portfolio-1 .content .col-md-2 {
+          width: 22.7%;
+        }
+      }
+
       @media (min-width: 765px) and (max-width: 991px){
         /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
@@ -854,13 +871,12 @@
         width: 12%;
       }
       /*portfolio-1.hml*/
-      .portfolio-1 .content .col-md-10 .col-md-6 {
-        height: 50%;
+      .portfolio-1 .content .col-md-2 {
+        width: 23.2%;
       }
-      .portfolio-1 .content #scroll-1, .portfolio-1 .content #scroll-2 {
-        margin-left: 33%;
+      .portfolio-1 .content .up-down-arrows {
+        margin-left: 29.7%;
       }
-
       /*portfolio-2.html*/
       .portfolio-2 .content #scroll-1, .portfolio-2 .content #scroll-2 {
         margin-left: 43%;
@@ -931,14 +947,17 @@
         width: 75%;
       }
       /*portfolio-1.html*/
+      .portfolio-1 .content .up-down-arrows {
+        margin-left: 35.7%;
+      }
+      .portfolio-1 .content .col-md-2 {
+        width: 15.76%;
+      }
       .portfolio-1 .content .title h3 {
         font-size: 150%;
       }
       .portfolio-1 .content .title .btn-primary {
         width: 75%;
-      }
-      .portfolio-1 .content #scroll-1, .portfolio-1 .content #scroll-2 {
-        margin-left: 37%;
       }
       /*portfolio-2.html*/
       .portfolio-2 .content #scroll-1, .portfolio-2 .content #scroll-2 {
@@ -975,16 +994,32 @@
   
 
     @media (max-width: 320px) and (orientation:landscape) {
-      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content {
+      .about .content, .service .content, .portfolio-2 .content {
         height:200%;
+      }
+      /*portfolio.html*/
+      .portfolio-1 .content {
+        height: 100%;
+      }
+      .portfolio-1 .content #section .col-md-6 {
+        height: 50%;
+        width: 50%;
       }
     }
     @media (min-width: 321px) and (max-width: 480px) and (orientation:landscape) {
       .about .content, .service .content, .portfolio-2 .content {
         height: 150%;
       }
+      /*portfolio.html*/
       .portfolio-1 .content {
-        height: 240%;
+        height: 100%;
+      }
+      .portfolio-1 #section .col-xs-12 {
+        width: 50%;
+        height: 50%;
+      }
+      .portfolio-1 .content .title {
+        padding-top: 50%;
       }
     }
     @media (min-width: 481px) and (max-width: 640px) and (orientation:landscape) {
@@ -997,8 +1032,19 @@
       .service .content, .portfolio-2 .content {
         height: 200%;
       }
+      /*portfolio.html*/
       .portfolio-1 .content {
-        height: 250%;
+        height: 100%;
+      }
+      .portfolio-1 #section .col-xs-12 {
+        height: 50%;
+        width: 50%;
+      }
+      .portfolio-1 .content .up-down-arrows {
+        margin-left: 29.7%;
+      }
+      .portfolio-1 .content .title {
+        padding-top: 50%;
       }
     }
     @media (min-width: 641px) and (max-width: 764px) and (orientation:landscape) {
@@ -1011,8 +1057,16 @@
       .service .content, .portfolio-2 .content {
         height: 200%;
       }
+      /*prtfolio.html*/
       .portfolio-1 .content {
-        height: 270%;
+        height: 100%;
+      }
+      .portfolio-1 #section .col-md-6 {
+        height: 50%;
+        width: 50%;
+      }
+      .portfolio-1 .content .title {
+        padding-top: 50%;
       }
     }
     @media (min-width: 765px) and (max-width: 991px) and (orientation:landscape) {
@@ -1026,11 +1080,15 @@
         height: 150%;
       }
       .portfolio-1 .content {
-        height: 200%;
+        height: 100%;
       }
     }
     @media (min-width: 991px) and (max-width: 1329px) and (orientation:landscape) {
       .about .content, .portfolio-1 .content, .portfolio-2 .content, .service .content {
         height: 100%;
+      }
+      /*portfolio.html*/
+      .portfolio-1 .content .up-down-arrows {
+        margin-left: 34%;
       }
     }
