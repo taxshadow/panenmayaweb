@@ -61,6 +61,6 @@ $(document).ready(function(){
         $("#section-1").slideDown(700);
       });
       $('.content').sliphover({
-        backgroundColorAttr: 'data-background'
+        backgroundColor: 'rgba(35, 115, 174, 0.9)'
       });
 });
