@@ -313,6 +313,10 @@
       text-align: center;
       color: white;
     }
+    .portfolio-1 .content #main-wrap>div {
+      margin: auto;
+      text-align: center;
+    }
     .portfolio-1 #section {
       padding: 0 0;
       height: 100%;
@@ -328,6 +332,9 @@
     .portfolio-1 .content #main-wrap {
       height: 100%;
       width: 100%;
+    }
+    .portfolio-1 .content #block-up-arrow, .portfolio-1 .content #block-down-arrow {
+      cursor: pointer;
     }
     .portfolio-1 .content .up-down-arrows {
       position: fixed;

@@ -1,9 +1,0 @@
-#main-wrap>div
-{
-  margin: auto;
-  text-align: center;
-}
-
-#block-up-arrow, #block-down-arrow {
-  cursor: pointer;
-}
