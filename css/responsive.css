@@ -257,6 +257,9 @@
       .portfolio-1 .content {
         height: 100%;
       }
+      .portfolio-1 .content #section .col-md-6 {
+        height: 25%;
+      }
       .portfolio-1 .content .up-down-arrows {
         margin-left: 20.85%;
       }

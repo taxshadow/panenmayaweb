@@ -324,6 +324,9 @@
       height: 100%;
       width: 100%;
     }
+    .portfolio-1 .content #block-up-arrow, .portfolio-1 .content #block-down-arrow {
+      cursor: pointer;
+    }
     .portfolio-1 .content .up-down-arrows {
       position: fixed;
       display: block;
