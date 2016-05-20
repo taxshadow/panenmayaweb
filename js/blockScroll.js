@@ -7,7 +7,7 @@
       fadeDuration : "slow", 
       paddingRatio : 0.05,
       triggerRatio : 0.005,
-      scrollDuration: "fast",
+      scrollDuration: "slow",
       fadeBlocks: true
     }, options );
 
