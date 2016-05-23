@@ -435,7 +435,7 @@
         padding-top: 5%;
       }
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
-        padding-top: 3px;
+        padding-top: 6px;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
@@ -618,16 +618,17 @@
       }
       /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
-        padding-top: 4%;
+        padding-top: 3%;
       }
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
-        padding-top: 3px;
+        padding-top: 0px;
+        font-size: 18px;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
       .service .content .col-md-10 .col-md-3 img {
-        width: 7%;
+        width: 6%;
         margin-top: 0px;
       }
       .service .content .col-md-10 .col-md-3 h4 {
@@ -649,7 +650,7 @@
         border-width: 1px;
       }
       .service .content .title:after {
-      border-width: 19px;
+      border-width: 17px;
     }
       /*portfolio-1.html*/
       .portfolio-1 .content .col-md-10 .col-md-6 {
@@ -772,7 +773,6 @@
           height: 50px;
         }
       }
-
       @media(min-width: 641px) and (max-width: 764px){
         /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
@@ -799,16 +799,17 @@
       }
      /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
-        padding-top: 5%;
+        padding-top: 6%;
       }
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
-        padding-top: 3px;
+        padding-top: 23px;
+        font-size: 24px;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
       .service .content .col-md-10 .col-md-3 img {
-        width: 7%;
+        width: 8%;
         margin-top: -11px;
       }
       .service .content .col-md-10 .col-md-3 h4 {
@@ -996,22 +997,23 @@
       }
       /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
-        padding-top: 6%;
+        padding-top: 4.5%;
       }
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
-        padding-top: 3px;
+        padding-top: 12px;
+        font-size: 21px;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
       .service .content .col-md-10 .col-md-3 img {
-        width: 6%;
+        width: 5%;
         margin-top: -30px;
       }
       .service .content .col-md-10 .col-md-3 h4 {
-        font-size: 14px;
+        font-size: 11px;
         margin-bottom: 5px;
-        margin-top: 1px;
+        margin-top: -3px;
       }
       .service .content .col-md-10 .col-md-3 p {
         font-size: 45%;
@@ -1027,7 +1029,7 @@
         border-width: 1px;
       }
       .service .content .title:after {
-      border-width: 24px;
+      border-width: 18px;
     }
       /*portfolio-1.hml*/
       .portfolio-1 .content .col-md-2 {

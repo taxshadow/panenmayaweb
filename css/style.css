@@ -182,7 +182,6 @@
     /*service.html*/
     .service .content {
       background-image: url('../img/service/background.png');
-      background-position: center;
       background-repeat: no-repeat;
       height: 100%;
       margin-left: 230px;
@@ -214,7 +213,7 @@
     }
     .service .content .col-md-10 .col-md-3 h4 {
       font-size: 18px;
-      color: black;
+      color: white;
     }
     .service .content #page-down, .service .content #page-up {
       padding: 0 0;
