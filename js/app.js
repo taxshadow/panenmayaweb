@@ -47,6 +47,54 @@ $(document).ready(function(){
 			$("#hover-4").hide();
 		}
 	});
+	$("#content-5").on({
+		mouseenter: function(){
+			$("#content-5").hide();
+			$("#hover-5").show();
+		}
+	});
+	$("#hover-5").on({
+		mouseleave: function(){
+			$("#content-5").show();
+			$("#hover-5").hide();
+		}
+	});
+	$("#content-6").on({
+		mouseenter: function(){
+			$("#content-6").hide();
+			$("#hover-6").show();
+		}
+	});
+	$("#hover-6").on({
+		mouseleave: function(){
+			$("#content-6").show();
+			$("#hover-6").hide();
+		}
+	});
+	$("#content-7").on({
+		mouseenter: function(){
+			$("#content-7").hide();
+			$("#hover-7").show();
+		}
+	});
+	$("#hover-7").on({
+		mouseleave: function(){
+			$("#content-7").show();
+			$("#hover-7").hide();
+		}
+	});
+	$("#content-8").on({
+		mouseenter: function(){
+			$("#content-8").hide();
+			$("#hover-8").show();
+		}
+	});
+	$("#hover-8").on({
+		mouseleave: function(){
+			$("#content-8").show();
+			$("#hover-8").hide();
+		}
+	});
 
 	$("#scroll-1").click(function(){
         $(this).hide();
