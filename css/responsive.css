@@ -833,6 +833,9 @@
       .service .content .title:after {
       border-width: 22px;
     }
+    .service .content {
+      background-size: 310%;
+    }
       /*portfolio-1.html*/
       .portfolio-1 #section .col-md-6 {
         height: 25%;
