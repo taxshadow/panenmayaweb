@@ -1274,6 +1274,13 @@
       .portfolio-1 .content .title {
         padding-top: 50%;
       }
+      /*portfolio-more.html*/
+      .portfolio-2 #section .col-xs-6 {
+        width: 25%;
+      }
+      .portfolio-2 .content .up-down-arrows .arrow img {
+        width: 45%;
+      }
       /*----contact----*/
       .contact .content .col-md-6 input:nth-child(1){
           background-color: #fff; 
@@ -1330,6 +1337,13 @@
       .portfolio-1 .content .title {
         padding-top: 50%;
       }
+      /*portfolio-more.html*/
+      .portfolio-2 .content .up-down-arrows .arrow img {
+        width: 20%;
+      }
+      .portfolio-2 .content .up-down-arrows {
+        margin-left: 37.5%;
+      }
       /*----contact----*/
       .contact .content .col-md-6 input:nth-child(1){
           background-color: #fff; 
@@ -1378,6 +1392,10 @@
       }
       .portfolio-1 .content {
         height: 100%;
+      }
+      /*portfolio-more.html*/
+      .portfolio-2 .content .up-down-arrows .arrow img {
+        width: 20%;
       }
       /*----contact----*/
       .contact .content .col-md-6 input:nth-child(1){
