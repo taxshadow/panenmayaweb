@@ -115,6 +115,15 @@
       padding-bottom: 4%;
       padding-left: 64%;
     }
+    .landing .content img:nth-child(1) {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      width: 100%;
+    }
+    .landing .content img:nth-child(2) {
+      display: none;
+    }
     .landing .content .btn-primary {
       width: 160px;
       height: auto;

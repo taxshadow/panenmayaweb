@@ -1,7 +1,55 @@
-
+@media (max-width: 240px) and (orientation: portrait) {
+  .landing .navbar-default {
+        background: transparent;
+      }
+      .landing .navbar-header .navbar-brand {
+        background-image: none;
+        height: 43px;
+      }
+      .landing .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+      }
+      .landing .navbar-default .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+      .landing .navbar-default .navbar-toggle {
+        margin: 0;
+      }
+      .landing .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+      }
+      .landing .content {
+        padding: 0 0;
+        margin-left: 0;
+      }
+      .landing .content img:nth-child(1) {
+        display: block;
+      }
+      .landing .content img:nth-child(2) {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .landing .content .btn-primary {
+        width: 44%;
+        height: 7%;
+        font-size: 12px;
+        padding: 0 0;
+        border-width: 1px;
+        padding-top: 2px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 33px;
+        margin-bottom: 33px;
+      }
+}
 @media (max-width: 240px){
   /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, .partner .content, .contact .content {
+      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, .partner .content, .contact .content {
         margin-left: 0;        
         margin-top: 50px;
         float: left;
@@ -13,14 +61,6 @@
         background-position: top;
         padding-top: 49%;
         padding-left: 78%;
-      }
-      .landing .content .btn-primary {
-        width: 37px;
-        height: 16px;
-        font-size: 8px;
-        padding: 0 0;
-        border-width: 1px;
-        padding-top: 2px;
       }
       /*about.html*/
       .about .content .title {
@@ -206,10 +246,58 @@
         	height: 50px;
         }
     }
-
+    @media(min-width: 241px) and (max-width: 320px) and (orientation: portrait) {
+      .landing .navbar-default {
+        background: transparent;
+      }
+      .landing .navbar-header .navbar-brand {
+        background-image: none;
+        height: 65px;
+      }
+      .landing .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+      }
+      .landing .navbar-default .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+      .landing .navbar-default .navbar-toggle {
+        margin: 0;
+      }
+      .landing .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+      }
+      .landing .content {
+        padding: 0 0;
+        margin-left: 0;
+      }
+      .landing .content img:nth-child(1) {
+        display: block;
+      }
+      .landing .content img:nth-child(2) {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .landing .content .btn-primary {
+        width: 44%;
+        height: 7%;
+        font-size: 130%;
+        padding: 0 0;
+        border-width: 1px;
+        padding-top: 2px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 15%;
+        margin-bottom: 20%;
+      }
+    }
     @media(min-width: 241px) and (max-width: 320px){
       /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content,
+      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content,
       .portfolio .content, .partner .content, .contact .content {
         margin-left: 0;        
         margin-top: 48px;
@@ -222,14 +310,6 @@
         background-position: top;
         padding-top: 50%;
         padding-left: 78%;
-      }
-      .landing .content .btn-primary {
-        width: 65%;
-        height: 21px;
-        font-size: 60%;
-        padding: 0 0;
-        border-width: 1px;
-        padding-top: 2px;
       }
       /*about.html*/
       .about .content {
@@ -409,9 +489,62 @@
           height: 50px;
         }
       }
+      @media(min-width: 321px) and (max-width: 480px) and (orientation: portrait) {
+        .landing .navbar-default {
+          background: transparent;
+        }
+        .landing .navbar-header .navbar-brand {
+          background-image: none;
+          height: 65px;
+        }
+        .landing .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+          background-color: transparent;
+        }
+        .landing .navbar-default .navbar-collapse {
+          background-color: rgba(255, 255, 255, 0.9);
+        }
+        .landing .navbar-default .navbar-toggle {
+          margin-right: 15px;
+          margin-top: 5px;
+        }
+        .landing .navbar-default .navbar-toggle .icon-bar {
+          background-color: white;
+          width: 35px;
+          height: 3px;
+          margin-bottom: 7px;
+        }
+        .landing .content {
+          padding: 0 0;
+          margin-left: 0;
+        }
+        .landing .content img:nth-child(1) {
+          display: block;
+        }
+        .landing .content img:nth-child(2) {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+        .landing .content .btn-primary {
+          width: 44%;
+          height: 7%;
+          font-size: 180%;
+          padding: 0 0;
+          border-width: 1px;
+          padding-top: 2px;
+          position: fixed;
+          bottom: 0;
+          right: 0;
+          margin-right: 15%;
+          margin-bottom: 17%;
+        }
+      }
       @media(min-width: 321px) and (max-width: 480px) {
          /*content*/
-        .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content,
+        .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content,
         .portfolio .content, .partner .content, .contact .content {
           margin-left: 0;
           margin-top: 60px;
@@ -424,11 +557,6 @@
           background-position: top;
           padding-top: 51%;
           padding-left: 78%;
-        }
-        .landing .content .btn-primary {
-          width: 70%;
-          font-size: 90%;
-          padding: 3px 0;
         }
        /*service.html*/
         .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
@@ -595,10 +723,63 @@
           margin-left: -2%;
         }
       }
-
+      @media(min-width: 481px) and (max-width: 640px) and (orientation: portrait) {
+        .landing .navbar-default {
+          background: transparent;
+        }
+        .landing .navbar-header .navbar-brand {
+          background-image: none;
+          height: 65px;
+        }
+        .landing .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+          background-color: transparent;
+        }
+        .landing .navbar-default .navbar-collapse {
+          background-color: rgba(255, 255, 255, 0.9);
+        }
+        .landing .navbar-default .navbar-toggle {
+          margin-right: 20px;
+          margin-top: 15px;
+        }
+        .landing .navbar-default .navbar-toggle .icon-bar {
+          background-color: white;
+          width: 40px;
+          height: 3px;
+          margin-bottom: 7px;
+        }
+        .landing .content {
+          padding: 0 0;
+          height: 100%;
+          margin-left: 0;
+        }
+        .landing .content img:nth-child(1) {
+          display: block;
+        }
+        .landing .content img:nth-child(2) {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+        .landing .content .btn-primary {
+          width: 44%;
+          height: 7%;
+          font-size: 210%;
+          padding: 0 0;
+          border-width: 4px;
+          padding-top: 2px;
+          position: fixed;
+          bottom: 0;
+          right: 0;
+          margin-right: 15%;
+          margin-bottom: 18%;
+        }
+      }
       @media(min-width: 481px) and (max-width: 640px){
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
       .partner .content, .contact .content {
         margin-left: 0;
         margin-top: 65px;
@@ -611,10 +792,6 @@
         background-position: top;
         padding-top: 51%;
         padding-left: 78%;
-      }
-      .landing .content .btn-primary {
-        width: 70%;
-        font-size: 90%;
       }
       /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
@@ -773,9 +950,64 @@
           height: 50px;
         }
       }
+      @media(min-width: 641px) and (max-width: 764px) and (orientation: portrait) {
+        .landing .navbar-default {
+          background: transparent;
+        }
+        .landing .navbar-header .navbar-brand {
+          background-image: none;
+          height: 65px;
+        }
+        .landing .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+          background-color: transparent;
+        }
+        .landing .navbar-default .navbar-collapse {
+          background-color: rgba(255, 255, 255, 0.9);
+        }
+        .landing .navbar-default .navbar-toggle {
+          margin: 0;
+          margin-right: 25px;
+          margin-top: 10px;
+        }
+        .landing .navbar-default .navbar-toggle .icon-bar {
+          background-color: white;
+          width: 40px;
+          height: 3px;
+          margin-bottom: 7px;
+        }
+        .landing .content {
+          padding: 0 0;
+          height: 100%;
+          margin-left: 0;
+        }
+        .landing .content img:nth-child(1) {
+          display: block;
+        }
+        .landing .content img:nth-child(2) {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+        .landing .content .btn-primary {
+          width: 44%;
+          height: 7%;
+          font-size: 210%;
+          padding: 0 0;
+          border-width: 4px;
+          padding-top: 2px;
+          position: fixed;
+          bottom: 0;
+          right: 0;
+          margin-right: 15%;
+          margin-bottom: 17%;
+        }
+      }
       @media(min-width: 641px) and (max-width: 764px){
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
       .partner .content, .contact .content {
         margin-left: 0;
         margin-top: 67px;
@@ -788,9 +1020,6 @@
         background-position: top;
         padding-top: 51%;
         padding-left: 78%;
-      }
-      .landing .content .btn-primary {
-        width: 70%;
       }
       /*about.html*/
       .about .content .title {
@@ -1205,6 +1434,23 @@
   
 
     @media (max-width: 320px) and (orientation:landscape) {
+      /*index.html*/
+      .landing .content {
+        margin-left: 0;        
+        margin-top: 48px;
+        float: left;
+        width: 100%;
+        height: 80%;
+      }
+      .landing .content .btn-primary {
+        width: 65%;
+        height: 21px;
+        font-size: 60%;
+        padding: 0 0;
+        border-width: 1px;
+        padding-top: 2px;
+      }
+
       .about .content, .service .content, .portfolio-2 .content {
         height:200%;
       }
@@ -1220,6 +1466,18 @@
     @media (min-width: 321px) and (max-width: 480px) and (orientation:landscape) {
       .about .content, .service .content, .portfolio-2 .content {
         height: 150%;
+      }
+      /*index.html*/
+      .landing .content {
+        margin-left: 0;
+        margin-top: 60px;
+        float: left;
+        width: 100%;
+      }
+      .landing .content .btn-primary {
+        width: 70%;
+        font-size: 90%;
+        padding: 3px 0;
       }
       /*portfolio.html*/
       .portfolio-1 .content {
@@ -1265,9 +1523,19 @@
       }
     }
     @media (min-width: 481px) and (max-width: 640px) and (orientation:landscape) {
+      /*index.html*/
       .landing .content {
-        height: 105%;
+        margin-left: 0;
+        margin-top: 65px;
+        float: left;
+        width: 100%;
+        height: 100%;
       }
+      .landing .content .btn-primary {
+        width: 70%;
+        font-size: 90%;
+      }
+
       .about .content {
         height: 130%;
       }
@@ -1331,9 +1599,18 @@
       }
     }
     @media (min-width: 641px) and (max-width: 764px) and (orientation:landscape) {
+      /*index.html*/
       .landing .content {
-        height: 110%;
+        height: 100%;
+        margin-left: 0;
+        margin-top: 67px;
+        float: left;
+        width: 100%;
       }
+      .landing .content .btn-primary {
+        width: 70%;
+      }
+
       .about .content {
         height: 130%;
       }
@@ -1396,7 +1673,7 @@
     }
     @media (min-width: 765px) and (max-width: 991px) and (orientation:landscape) {
       .landing .content {
-        height: 110%;
+        height: 100%;
       }
       .about .content {
         height: 100%;
