@@ -8,8 +8,10 @@
       height: 100%;
     }
     .portfolio .content .col-md-9 {
+      background-image: url('../img/background.png'); 
       height: 100%;
       padding: 0 0;
+      background-position: center;
     }
     .portfolio .content #section-1, .portfolio .content #section-2 {
       padding: 0 0;
@@ -18,14 +20,7 @@
     .portfolio .content #section-2 {
       display: none;
     }
-    .portfolio .content .col-md-9 .col-md-6 {
-      height: 100%;
-      padding: 0 0;
-      text-align: center;
-      color: white;
-    }
-    .portfolio .content .col-md-9 .col-md-6 img {
-      width: 100%;
+    .portfolio .content .col-md-9 img {
       height: 100%;
     }  
     .portfolio .content #scroll-1, .portfolio .content #scroll-2 {

@@ -124,8 +124,8 @@
         margin-top: -7px;
        }
       .portfolio .content .col-md-3 h5 {
-        margin-left: -6px;
-        font-size: 7px;
+        margin-left: 0px;
+        font-size: 5px;
         margin-top: 0px;
         margin-bottom: 0px;
       }
@@ -334,7 +334,7 @@
         margin-top: -7px;
        }
       .portfolio .content .col-md-3 h5{
-        font-size: 7px;
+        font-size: 6px;
         margin-left: 0px;
         margin-bottom: 0px;
         margin-top: 0px;
@@ -703,7 +703,7 @@
         margin-top: 1px;
        }
       .portfolio .content .col-md-3 h5{
-        font-size: 11px;
+        font-size: 9px;
         margin-left: -10px;
         margin-bottom: 2px;
         margin-top: 0px;
@@ -886,6 +886,9 @@
       .portfolio .content .title:after {
         border-width: 15px; 
         margin-top: -27px;
+      }
+      .portfolio .content .col-md-9 {
+        height: 91%;
       }
       /*partner.html*/
       .partner .content .col-md-4 {
@@ -1074,6 +1077,9 @@
         border-width: 17px; 
         margin-top: -60px;
       }
+      .portfolio .content .col-md-9 {
+        height: 90%;
+      }
       /*partner.html*/
       .partner .content .col-sm-6 {
         height: 33.3%;
@@ -1183,6 +1189,9 @@
       .portfolio .content .title:after {
         border-width: 21px; 
         margin-top: -95px;
+      }
+      .portfolio .content .col-md-9 {
+        height: 68%;
       }
       /*contact.html*/
 		.contact .content .col-lg-4{
@@ -1445,5 +1454,6 @@
       /*portfolio.html*/
       .portfolio-1 .content .up-down-arrows {
         margin-left: 34%;
+      }
       }
     }
