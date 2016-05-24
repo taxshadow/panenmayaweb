@@ -24,6 +24,8 @@
       }
       .landing .content img:nth-child(1) {
         display: block;
+        top: 0;
+        left: 0;
       }
       .landing .content img:nth-child(2) {
         display: block;
@@ -272,6 +274,8 @@
       }
       .landing .content img:nth-child(1) {
         display: block;
+        top: 0;
+        left: 0;
       }
       .landing .content img:nth-child(2) {
         display: block;
@@ -519,6 +523,8 @@
         }
         .landing .content img:nth-child(1) {
           display: block;
+          top: 0;
+          left: 0;
         }
         .landing .content img:nth-child(2) {
           display: block;
@@ -754,6 +760,8 @@
         }
         .landing .content img:nth-child(1) {
           display: block;
+          top: 0;
+          left: 0;
         }
         .landing .content img:nth-child(2) {
           display: block;
@@ -982,6 +990,8 @@
         }
         .landing .content img:nth-child(1) {
           display: block;
+          top: 0;
+          left: 0;
         }
         .landing .content img:nth-child(2) {
           display: block;
