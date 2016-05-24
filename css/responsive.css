@@ -927,11 +927,14 @@
           }
           .contact .content .arrow_box{
             padding-left: 5%;
+            height: 100%; 
 
           }
         .contact .content .arrow_box h3{
-          margin-top: -10%;
+          margin-top: 70%;
           margin-left: 0;
+        }
+        
         }
         .contact .content .col-md-6 input:nth-child(1){
           background-color: #fff; 
@@ -946,16 +949,19 @@
           margin-left: -5px;
         }
         .contact .content .col-md-6 textarea{
-          margin-top: 8px;
+          margin-top: 6px;
           margin-left: -5px;
         }
         
         #map1{
           display: all;
+          margin-top: -8%;
+          height: 113%;
         }
         .contact .content .col-md-6 a{
           margin-left: -1%;
-          height: 50px;
+          margin-top: -2%;
+          height: 45px;
         }
       }
       @media(min-width: 641px) and (max-width: 764px) and (orientation: portrait) {
@@ -1186,6 +1192,7 @@
           height: 50px;
         }
       }
+
 
       @media (min-width: 765px) and (max-width: 768px){
         .portfolio-1 #section .col-md-6 {
