@@ -1155,6 +1155,9 @@
         height: 91%;
       }
       /*partner.html*/
+      .partner .content {
+        height: 93.4%;
+      }
       .partner .content .col-md-4 {
         width: 50%;
         height: 33.35%;
