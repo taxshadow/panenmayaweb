@@ -1365,10 +1365,7 @@
       .about .content, .service .content {
         background-size: 280%;
       }
-		.contact .content {
-	        background-size: 250%;
-	    }
-
+		  
       /*index.html*/
       .landing .content {
         background-position: top;
@@ -1448,6 +1445,10 @@
     .contact .content .col-md-4{
       background-size: 71%;
     }
+    .contact .content {
+          background-size: 250%;
+      }
+
 	}
 
   
