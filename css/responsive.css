@@ -1240,6 +1240,11 @@
         .portfolio-2 .content .up-down-arrows .arrow img {
           width: 40%;
         }
+
+        .partner .content .col-xs-12 {
+          height: 33.3%;
+          width: 50%;
+        }
       }
 
       @media (min-width: 765px) and (max-width: 991px){
