@@ -1536,6 +1536,9 @@
       .partner .content .col-md-4 img {
         width: 28%;
       }
+      .partner .content img{
+        height: 120%;
+      }
     }
     @media (min-width: 321px) and (max-width: 480px) and (orientation:landscape) {
       .about .content, .service .content, .portfolio-2 .content {
@@ -1610,6 +1613,14 @@
       }
       .contact .content .pesan{
         margin-bottom: 3%;
+      }
+      /*PARTNER.html*/
+      .partner .content .col-md-2 .title{
+        padding-top: 45%;
+      }
+      .partner .content .col-md-4 img {
+        height: 120%;
+        width: auto;
       }
     }
     @media (min-width: 481px) and (max-width: 640px) and (orientation:landscape) {
@@ -1703,6 +1714,14 @@
       .contact .content .arrow_box h3{
         margin-top: -66%;
       }
+      /*PARTNER.html*/
+      .partner .content .col-md-2 .title{
+        padding-top: 45%;
+      }
+      .partner .content .col-md-4 img {
+        height: 120%;
+        width: auto;
+      }
     }
     @media (min-width: 641px) and (max-width: 764px) and (orientation:landscape) {
       /*index.html*/
@@ -1788,6 +1807,14 @@
       .contact .content .arrow_box h3{
         margin-top: -50%;
       }
+      /*PARTNER.html*/
+      .partner .content .col-md-2 .title{
+        padding-top: 45%;
+      }
+      .partner .content .col-md-4 img {
+        height: 120%;
+        width: auto;
+      }
     }
     @media (min-width: 765px) and (max-width: 991px) and (orientation:landscape) {
       .landing .content {
@@ -1840,6 +1867,14 @@
       }
       .contact .content .arrow_box h3{
         margin-top: -50%;
+      }
+      /*PARTNER.html*/
+      .partner .content .col-md-2 .title{
+        padding-top: 45%;
+      }
+      .partner .content .col-md-4 img {
+        height: 120%;
+        width: auto;
       }
     }
     @media (min-width: 991px) and (max-width: 1329px) and (orientation:landscape) {
