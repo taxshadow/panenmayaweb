@@ -1262,13 +1262,17 @@
 
 
       /*index.html*/
-      .landing .content {
-        background-position: top;
-        padding-top: 48%;
-        padding-left: 72%;
+      .landing .content .background, .landing .content .line, .landing .content .vector {
+        left: 8.85%;
       }
-      .landing .content .btn-primary {
-        width: 66%;
+      .landing .content .line {
+        width: 91.2%;
+      }
+      .landing .content .vector {
+        width: 91%;
+      }
+      .landing .content .macbook {
+        left: 11%;
       }
       /*about.html*/
       .about .content .title {
@@ -1395,11 +1399,17 @@
       }
 		  
       /*index.html*/
-      .landing .content {
-        background-position: top;
-        padding-top: 50%;
-        padding-left: 73%;
-        padding-bottom: 10%;
+      .landing .content .background, .landing .content .line, .landing .content .vector {
+        left: 6.85%;
+      }
+      .landing .content .vector {
+        width: 93%;
+      }
+      .landing .content .line {
+        width: 93.2%;
+      }
+      .landing .content .macbook {
+        left: 10%;
       }
      /*service.html*/
       .service .content .title .btn-primary {
