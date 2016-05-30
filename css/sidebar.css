@@ -74,18 +74,26 @@ body,html{
     width: 75%;
   }
 
+  .navbar-default .navbar-nav>li>a {
+    color: black;
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    color: #9EDDF9;
+    font-weight: bold;
+  }
+
   .navbar-default .navbar-nav .active a {
     background-image: none;
     box-shadow: none;
     background-color: transparent;
-    color: rgba(75, 170, 240, 0.9);
+    color: #9EDDF9;
     font-weight: bold;
   }
   .navbar-default .navbar-nav .active a:hover {
     background-image: none;
     box-shadow: none;
     background-color: transparent;
-    color: rgba(75, 170, 240, 0.9);
+    color: #9EDDF9;
   }
 
   .glyphicon {
