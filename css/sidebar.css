@@ -58,6 +58,9 @@ body,html{
     margin-bottom: 18px;
     font-size: 18px;
   }
+  .navbar .contact p {
+    color: black;
+  }
   .navbar .contact a:nth-child(3) .glyphicon{
     margin-top: 3px;
   }
