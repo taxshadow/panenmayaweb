@@ -18,6 +18,7 @@ body,html{
     border-color: transparent;
     position: fixed;
     z-index: 10000;
+    padding: 0 2%;
   }
   .main{
     padding: 10px 10px 0 10px;
@@ -62,11 +63,11 @@ body,html{
   }
   .navbar .contact img:nth-child(2) {
     margin-left: 70%;
-    margin-top: 70%;
+    margin-top: 115%;
   }
   .navbar .contact img:nth-child(3) {
     margin-left: 70%;
-    margin-top: 102%;
+    margin-top: 185%;
   }
   .navbar .contact p:nth-child(1) {
     margin-top: 2%;
@@ -334,8 +335,8 @@ body,html{
     }
 
     nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      margin-top: 5px;
-      margin-left: 5px;
+      margin-top: 10px;
+      margin-left: 20px;
     }
 
     nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
