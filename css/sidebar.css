@@ -54,15 +54,22 @@ body,html{
     width: 170px;
     font-weight: bold;
   }
-  .navbar .contact .glyphicon {
-    margin-bottom: 18px;
-    font-size: 18px;
-  }
   .navbar .contact p {
     color: black;
   }
-  .navbar .contact a:nth-child(3) .glyphicon{
-    margin-top: 3px;
+  .navbar .contact img:nth-child(1) {
+    margin-left: 70%;
+  }
+  .navbar .contact img:nth-child(2) {
+    margin-left: 70%;
+    margin-top: 70%;
+  }
+  .navbar .contact img:nth-child(3) {
+    margin-left: 70%;
+    margin-top: 102%;
+  }
+  .navbar .contact p:nth-child(1) {
+    margin-top: 2%;
   }
   .navbar .contact p:nth-child(2) {
     margin-top: 15px;
