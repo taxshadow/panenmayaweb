@@ -109,7 +109,7 @@ body,html{
     margin-bottom: 25px;
   }
   .social-media li {
-    display: inline;
+    display: inline-block;
   }
 
   .social-media a {
@@ -333,7 +333,7 @@ body,html{
 
     nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
       text-align: center;
-      width: 100%;
+      width: 85%;
       margin-left: 0px;
     }
     
