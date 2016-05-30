@@ -12,7 +12,7 @@ body,html{
     border-radius: 0;
   }
   .navbar-default {
-    width: 100%;
+    width: 20%;
     background: #fff;
     box-shadow: none;
     border-color: transparent;
@@ -332,7 +332,6 @@ body,html{
     }
 
     nav.sidebar{
-      width: 230px;
       height: 100%;
       margin-left: -160px;
       float: left;
