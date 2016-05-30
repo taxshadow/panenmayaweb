@@ -119,6 +119,7 @@ body,html{
   }
   .social-media .twitter a {
     background-position: -44px 0;
+    color: black;
     
   }
   .social-media .twitter a:hover {
