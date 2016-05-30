@@ -12,7 +12,7 @@ body,html{
     border-radius: 0;
   }
   .navbar-default {
-    width: 20%;
+    width: 22%;
     background: #fff;
     box-shadow: none;
     border-color: transparent;
@@ -58,6 +58,9 @@ body,html{
     margin-bottom: 18px;
     font-size: 18px;
   }
+  .navbar .contact p {
+    color: black;
+  }
   .navbar .contact a:nth-child(3) .glyphicon{
     margin-top: 3px;
   }
@@ -74,18 +77,26 @@ body,html{
     width: 75%;
   }
 
+  .navbar-default .navbar-nav>li>a {
+    color: black;
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    color: #9EDDF9;
+    font-weight: bold;
+  }
+
   .navbar-default .navbar-nav .active a {
     background-image: none;
     box-shadow: none;
     background-color: transparent;
-    color: rgba(75, 170, 240, 0.9);
+    color: #9EDDF9;
     font-weight: bold;
   }
   .navbar-default .navbar-nav .active a:hover {
     background-image: none;
     box-shadow: none;
     background-color: transparent;
-    color: rgba(75, 170, 240, 0.9);
+    color: #9EDDF9;
   }
 
   .glyphicon {
@@ -98,7 +109,7 @@ body,html{
     margin-bottom: 25px;
   }
   .social-media li {
-    display: inline;
+    display: inline-block;
   }
 
   .social-media a {
@@ -322,7 +333,7 @@ body,html{
 
     nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
       text-align: center;
-      width: 100%;
+      width: 85%;
       margin-left: 0px;
     }
     
