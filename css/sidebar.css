@@ -335,8 +335,8 @@ body,html{
     }
 
     nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      margin-top: 5px;
-      margin-left: 5px;
+      margin-top: 10px;
+      margin-left: 20px;
     }
 
     nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
