@@ -185,14 +185,24 @@ body,html{
   @media (max-width: 240px){
     .navbar {
         margin-bottom: 5px;
+        width: 100%;
       }
       .navbar-header .navbar-brand {
         height: 48px;
         margin-left: 10px;
+        width: 71%;
       }
       .navbar-nav {
-        margin-top: -15px;
+        margin-top: 0px;
         margin-bottom: 0;
+      }
+      .navbar-nav hr {
+        margin-left: 5px;
+        width: 80%;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 1px;
+        margin-top: 7px;
       }
       .navbar-nav > li > a {
         padding-top: 5px;
@@ -211,14 +221,24 @@ body,html{
   @media (min-width: 241px) and (max-width: 320px){
     .navbar {
         margin-bottom: 5px;
+        width: 100%
       }
       .navbar-header .navbar-brand {
         height: 48px;
         margin-left: 10px;
+        width: 60%;
       }
       .navbar-nav {
         margin-top: 0;
         margin-bottom: 0;
+      }
+      .navbar-nav hr {
+        margin-left: 5px;
+        width: 85%;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 1px;
+        margin-top: 7px;
       }
       .navbar-nav > li > a {
         padding-top: 5px;
@@ -237,27 +257,42 @@ body,html{
     .navbar {
         padding-top: 5px;
         margin-bottom: 10px;
+        width: 100%
       }
       .navbar-header .navbar-brand {
         height: 55px;
         margin-left: 10px;
         background-size: 145px;
+        width: 60%;
       }
       .navbar-nav {
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 10px;
       }
+      .navbar-nav hr {
+        margin-left: 5px;
+        width: 102%;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 1px;
+        margin-top: 7px;
+      }
       .navbar-nav > li > a {
         padding-top: 5px;
         padding-bottom: 5px;
         font-size: 14px;
+        text-align: center;
       }
       .navbar .contact {
         display: none;
       }
-      .navbar-nav .social-media {
+      .social-media {
         margin-bottom: 15px;
+        margin-left: 32%;
+      }
+      .copyright {
+        margin-left: 18%;
       }
   }
 
@@ -265,27 +300,43 @@ body,html{
     .navbar {
         padding-top: 5px;
         margin-bottom: 10px;
+        width: 100%;
       }
       .navbar-header .navbar-brand {
         height: 60px;
         margin-left: 10px;
         background-size: 155px;
+        width: 60%;
       }
       .navbar-nav {
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 10px;
       }
+      .navbar-nav hr {
+        margin-left: 5px;
+        width: 105%;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 1px;
+        margin-top: 7px;
+      }
       .navbar-nav > li > a {
         padding-top: 5px;
         padding-bottom: 5px;
         font-size: 14px;
+        text-align: center;
       }
       .navbar .contact {
         display: none;
       }
-      .navbar-nav .social-media {
+      .social-media {
         margin-bottom: 15px;
+        margin-left: 36%;
+      }
+      .copyright {
+        margin-left: 20%;
+        font-size: 130%;
       }
   }
 
