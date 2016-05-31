@@ -225,42 +225,33 @@ body,html{
     .navbar {
         margin-bottom: 5px;
         width: 100%;
-<<<<<<< HEAD
-=======
       }
       .navbar-toggle {
         margin: 3% 0;
->>>>>>> 5247b565468d2f6b0d6960b9ed74431ad7a39fc4
       }
       .navbar-header .navbar-brand {
         height: 48px;
         margin-left: 10px;
-<<<<<<< HEAD
         width: 71%;
-=======
         width: 65%;
         margin-top: 3%;
         margin-bottom: -3%;
       }
       .navbar-default .navbar-collapse {
         margin-left: -10%;
->>>>>>> 5247b565468d2f6b0d6960b9ed74431ad7a39fc4
       }
       .navbar-nav {
         margin-top: 0px;
         margin-bottom: 0;
       }
       .navbar-nav hr {
-<<<<<<< HEAD
         margin-left: 5px;
         width: 80%;
         font-weight: bold;
         background-color: rgba(0, 0, 0, 0.2);
         height: 1px;
         margin-top: 7px;
-=======
         width: 90%;
->>>>>>> 5247b565468d2f6b0d6960b9ed74431ad7a39fc4
       }
       .navbar-nav > li > a {
         padding-top: 5px;
@@ -350,7 +341,7 @@ body,html{
         margin-left: 32%;
       }
       .copyright {
-        margin-left: 18%;
+        margin-left: 14%;
       }
   }
 
@@ -393,7 +384,7 @@ body,html{
         margin-left: 36%;
       }
       .copyright {
-        margin-left: 20%;
+        margin-left: 17%;
         font-size: 130%;
       }
   }
@@ -402,27 +393,43 @@ body,html{
     .navbar {
         padding-top: 5px;
         margin-bottom: 10px;
+        width: 100%
       }
       .navbar-header .navbar-brand {
         height: 60px;
         margin-left: 10px;
         background-size: 165px;
+        width: 80%;
       }
       .navbar-nav {
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 10px;
       }
+      .navbar-nav hr {
+        margin-left: 5px;
+        width: 105%;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 1px;
+        margin-top: 7px;
+      }
       .navbar-nav > li > a {
         padding-top: 5px;
         padding-bottom: 5px;
         font-size: 14px;
+        text-align: center;
       }
       .navbar .contact {
         display: none;
       }
-      .navbar-nav .social-media {
+      .social-media {
         margin-bottom: 15px;
+        margin-left: 37%;
+      }
+      .copyright {
+        margin-left: 26%;
+        font-size: 100%;
       }
   }
 @media (min-width: 765px) and (max-width: 991px){
