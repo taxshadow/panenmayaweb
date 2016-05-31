@@ -95,6 +95,11 @@ $(document).ready(function(){
 			$("#hover-8").hide();
 		}
 	});
+	$(".navbar-toggle").on({
+		click: function(){
+			$(".collapse").toggle();
+		}
+	})
 
 	$("#scroll-1").click(function(){
         $(this).hide();
