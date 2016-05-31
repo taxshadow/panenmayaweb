@@ -384,8 +384,9 @@
       background-image: linear-gradient(top, rgba(28, 182, 194, 0.9), rgba(35, 115, 174, 0.9), rgba(8, 35, 75, 0.86));
       height: 100%;
       text-align: right;
-      padding-right: 15%;
-      padding-top: 100%;
+      padding-right: 18%;
+      padding-left: 18%;
+      padding-top: 75%;
       color: white;
       margin-left: -1px;
     }
@@ -403,26 +404,30 @@
       margin-top: -20px;
     }  
     .portfolio-1 .content .title h3 {
-      margin-top: 10px;
+      margin: 0;
+      color: rgba(255,255,255,0.95);
     }
     .portfolio-1 .content .title .btn-primary {
-      width: 128px;
-      height: 45px;
+      width: 100%;
+      height: 50px;
       background-image: none;
       background-color: transparent;
       border-width: 2px 2px;
-      border-color: #daddde;
+      border-color: rgba(255, 255, 255, 0.6);
       border-radius: 0;
+      margin-top: 25%;
+      padding: 5%;
     }
     .portfolio-1 .content .title .btn-primary:hover {
       background-image: none;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.1);
       border-width: 2px 2px;
-      border-color: #daddde;
+      border-color: rgba(255, 255, 255, 0.6);
       border-radius: 0;
     }
     .portfolio-1 .content .title .btn {
       font-size: 18px;
+      color: rgba(255, 255, 255, 0.95);
     }
 
     /*portfolio-2.html*/
@@ -498,10 +503,9 @@
       background-image: linear-gradient(top, rgba(28, 182, 194, 0.9), rgba(35, 115, 174, 0.9), rgba(8, 35, 75, 0.86));
       height: 100%;
       text-align: right;
-      padding-right: 20%;
-      padding-left: 20%;
-      padding-top: 100%;
-      color: white;
+      padding-right: 18%;
+      padding-left: 18%;
+      padding-top: 75%;
     }
     .partner .content .title:after {
       right: 100%;
@@ -517,26 +521,30 @@
       margin-top: -20px;
     }  
     .partner .content .title h3 {
-      margin-top: 10px;
+      margin: 0;
+      color: rgba(255,255,255,0.95);
     }
     .partner .content .title .btn-primary {
       width: 100%;
-      height: 45px;
+      height: 50px;
       background-image: none;
       background-color: transparent;
       border-width: 2px 2px;
-      border-color: #daddde;
+      border-color: rgba(255, 255, 255, 0.6);
       border-radius: 0;
+      margin-top: 25%;
+      padding: 5%;
     }
     .partner .content .title .btn-primary:hover {
       background-image: none;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.1);
       border-width: 2px 2px;
-      border-color: #daddde;
+      border-color: rgba(255, 255, 255, 0.6);
       border-radius: 0;
     }
     .partner .content .title .btn {
       font-size: 18px;
+      color: rgba(255, 255, 255, 0.95);
     }
 
     /*----------------------------------------------contact----------------------------------------------------*/
