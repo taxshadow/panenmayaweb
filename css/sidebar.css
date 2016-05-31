@@ -34,7 +34,7 @@ body,html{
     border: none;
     border-style: none;
   }
-  .navbar-collapse {
+  body, h3, h4, h5, h6, p, a, li, h2 {
     font-family: "proxima_nova";
   }
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
