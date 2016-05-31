@@ -563,7 +563,7 @@
     .contact .btn-primary:hover {
       background-image: none;
       background-color: #acacac;
-      border-width: 3px 3px;
+      border-width: 2px 2px;
       border-color: #daddde;
       border-radius: 0;
       opacity: 0.8;

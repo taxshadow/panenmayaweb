@@ -37,6 +37,9 @@ body,html{
   body, h3, h4, h5, h6, p, a, li, h2 {
     font-family: "proxima_nova";
   }
+  li {
+    font-size: 110%;
+  }
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
       background-color: #fff;
   }  
@@ -100,7 +103,7 @@ body,html{
   }
   .navbar-default .navbar-nav>li>a:hover {
     color: #9EDDF9;
-    font-weight: bold;
+    font-size: 120%;
   }
 
   .navbar-default .navbar-nav .active a {
@@ -109,6 +112,7 @@ body,html{
     background-color: transparent;
     color: #9EDDF9;
     font-weight: bold;
+    font-size: 120%;
   }
   .navbar-default .navbar-nav .active a:hover {
     background-image: none;
