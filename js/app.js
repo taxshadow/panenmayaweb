@@ -109,6 +109,6 @@ $(document).ready(function(){
         $("#section-1").slideDown(700);
       });
       $('.content').sliphover({
-        backgroundColor: 'rgba(35, 115, 174, 0.9)'
+        backgroundColor: 'rgba(30, 184, 196, 0.8)'
       });
 });
