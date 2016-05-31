@@ -433,7 +433,7 @@
     /*portfolio-2.html*/
     .portfolio-2 .content {
       height: 100%;
-      margin-left: 230px;
+      margin-left: 22%;
     }
     .portfolio-2 .content .col-md-12 {
       padding: 0 0;
@@ -448,7 +448,7 @@
     }
     .portfolio-2 #section .col-md-3 {
       padding: 0 0;
-      height: 33.3%;
+      height: 50%;
     }
     .portfolio-2 .content #main-wrap #section img {
       width: 100%;
