@@ -70,6 +70,7 @@
       }
       .landing .content .btn-primary:hover {
         border-width: 1px;
+      }
 }
 @media (max-width: 240px){
   /*content*/
@@ -270,19 +271,24 @@
         	height: 50px;
         }
     }
-    @media(min-width: 241px) and (max-width: 320px) and {
+    @media(min-width: 241px) and (max-width: 320px) and (orientation: portrait) {
       .landing .navbar-default {
         background: transparent;
+        width: 100%
       }
       .landing .navbar-header .navbar-brand {
-        background-image: none;
-        height: 65px;
+        display: none;
+      }
+      .navbar-default .navbar-collapse {
+        margin-left: -3%;
+        margin-right: -4%;
       }
       .landing .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
         background-color: transparent;
       }
       .landing .navbar-default .navbar-collapse {
         background-color: rgba(255, 255, 255, 0.9);
+        margin-top: 10%;
       }
       .landing .navbar-default .navbar-toggle {
         margin: 0;
@@ -296,7 +302,7 @@
       }
       .landing .content img:nth-child(1) {
         display: block;
-        top: 0;
+        top: 1%;
         left: 0;
       }
       .landing .content img:nth-child(2) {
@@ -307,22 +313,38 @@
         width: 100%;
         height: 100%;
       }
-      .landing .content .macbook, .landing .content .iphone, .landing .content .ipad, .landing .content .vector,
-      .landing .content .text, .landing .content .background, .landing .content .line {
+      .landing .content .macbook, .landing .content .ipad, .landing .content .line {
         display: none;
+      }
+      .landing .content .background {
+        width: 100%;
+        left: 0;
+      }
+      .landing .content .text {
+        bottom: 10%;
+        width: 90%;
+      }
+      .landing .content .iphone {
+        width: 80%;
+        left: 8%;
+        top: 20%;
+      }
+      .landing .content .vector {
+        left: 0;
+        width: 100%;
+        z-index: -1;
       }
       .landing .content .btn-primary {
         width: 44%;
         height: 7%;
-        font-size: 130%;
-        padding: 0 0;
+        font-size: 15px;
         border-width: 1px;
-        padding-top: 2px;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        margin-right: 15%;
-        margin-bottom: 20%;
+        bottom: 10%;
+        right: 15%;
+        padding: 2% 0;
+      }
+      .landing .content .btn-primary:hover {
+        border-width: 1px;
       }
     }
     @media(min-width: 241px) and (max-width: 320px){
@@ -522,16 +544,18 @@
       @media(min-width: 321px) and (max-width: 480px) and (orientation: portrait) {
         .landing .navbar-default {
           background: transparent;
+          width: 100%;
         }
         .landing .navbar-header .navbar-brand {
-          background-image: none;
-          height: 65px;
+          display: none;
         }
         .landing .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
           background-color: transparent;
         }
         .landing .navbar-default .navbar-collapse {
           background-color: rgba(255, 255, 255, 0.9);
+          margin-left: -5%;
+          margin-right: -6%;
         }
         .landing .navbar-default .navbar-toggle {
           margin-right: 15px;
@@ -561,8 +585,12 @@
           height: 100%;
         }
       .landing .content .macbook, .landing .content .iphone, .landing .content .ipad, .landing .content .vector,
-      .landing .content .text, .landing .content .background, .landing .content .line {
+      .landing .content .text, .landing .content .line {
         display: none;
+      }
+      .landing .content .background {
+        width: 100%;
+        left: 0;
       }
         .landing .content .btn-primary {
           width: 44%;
