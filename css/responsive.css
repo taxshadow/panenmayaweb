@@ -1,6 +1,7 @@
 @media (max-width: 240px) and (orientation: portrait) {
   .landing .navbar-default {
         background: transparent;
+        width: 100%
       }
       .landing .navbar-header .navbar-brand {
         background-image: none;
@@ -24,7 +25,7 @@
       }
       .landing .content img:nth-child(1) {
         display: block;
-        top: 0;
+        top: 1%;
         left: 0;
       }
       .landing .content img:nth-child(2) {
@@ -41,17 +42,16 @@
       }
       .landing .content .btn-primary {
         width: 44%;
-        height: 7%;
         font-size: 12px;
-        padding: 0 0;
         border-width: 1px;
-        padding-top: 2px;
         position: fixed;
         bottom: 0;
         right: 0;
         margin-right: 33px;
         margin-bottom: 33px;
       }
+      .landing .content .btn-primary:hover {
+        border-width: 1px;
 }
 @media (max-width: 240px){
   /*content*/

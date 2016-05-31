@@ -89,9 +89,8 @@
     }
     .landing .content .ipad {
       position: fixed;
-      right: -8%;
-      top: 15%;
-      width: 40%;
+      right: -5%;
+      top: 17%;
     }
     .landing .content .iphone {
       position: fixed;
