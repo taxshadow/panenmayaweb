@@ -438,9 +438,6 @@ body,html{
       height: 9%;
       width: 100%;
       float: left;
-      margin-bottom: 0px;
-      box-shadow: none;
-      border-width: 0 0;
     }
     .navbar-toggle {
       display: block;
