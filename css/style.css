@@ -104,17 +104,6 @@
       font-size: 18px;
     }
     /*index.html */
-    .landing .content {
-      background-image: url('../img/index.png');
-      background-repeat: no-repeat;
-      background-size: 100%;
-      margin-left: 16.85%;
-      background-position: center;
-      height: 100%;
-      padding-top: 41%;
-      padding-bottom: 4%;
-      padding-left: 64%;
-    }
     .landing .content img:nth-child(1) {
       display: none;
       position: fixed;
@@ -127,24 +116,18 @@
     .landing .content .background, .landing .content .line, .landing .content .vector {
       position: fixed;
       top: 0;
-      left: 16.85%;
-      width: 100%;
+      left: 22%;
+      width: 78%;
       height: 100%;
     }
     .landing .content .background {
       z-index: -1000;
-    }
-    .landing .content .line {
-      width: 83.2%;
     }
     .landing .content .text {
       position: fixed;
       bottom: 5%;
       right: 0;
       width: 33%;
-    }
-    .landing .content .vector {
-      width: 83%;
     }
     .landing .content .ipad {
       position: fixed;
@@ -154,16 +137,14 @@
     }
     .landing .content .iphone {
       position: fixed;
-      left: 42%;
-      top: 15%;
-      width: 26%;
+      left: 48%;
+      top: 22%;
     }
     .landing .content .macbook {
       position: fixed;
       bottom: 3%;
-      left: 19%;
+      left: 24%;
       z-index: 1;
-      width: 35%;
     }
     .landing .content .btn-primary {
       width: 12%;
@@ -179,7 +160,7 @@
     }
     .landing .content .btn-primary:hover {
       background-image: none;
-      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0.1);
       border-width: 2px 2px;
       border-color: #daddde;
       border-radius: 0;
@@ -376,7 +357,7 @@
       position: fixed;
       display: block;
       bottom: 0;
-      margin-left: 30.85%;
+      margin-left: 25.4%;
       margin-bottom: 1%;
       z-index: 1000;
       width: 100px;
@@ -564,7 +545,7 @@
       background-repeat: no-repeat;
       background-size: 100%;
       height: 100%;
-      margin-left: 230px;
+      margin-left: 301px;
     }
     .contact .btn-primary {
       width: 100%;
@@ -635,11 +616,11 @@
       height: 100%;
       padding-top: 200px;
       padding-left: 60px;
-      background-image: -moz-linear-gradient(top,rgba(28, 182, 194, 0.8),rgba(35, 115, 174, 0.3),rgba(8, 35, 75, 0.5));
-      background-image: -webkit-linear-gradient(top,rgba(28, 182, 194, 0.2),rgba(35, 115, 174, 1),rgba(8, 35, 75, 0.5));
-      background-image: -ms-linear-gradient(top,rgba(28, 182, 194, 0.2),rgba(35, 115, 174, 1),rgba(8, 35, 75, 0.5));
-      background-image: -o-linear-gradient(top,rgba(28, 182, 194, 1),rgba(35, 115, 174, 1),rgba(8, 35, 75, 0.5));
-      background-image: linear-gradient(top,rgba(28, 182, 194, 1),rgba(35, 115, 174, 1),rgba(8, 35, 75, 0.5));
+      background-image: -moz-linear-gradient(top,rgba(28, 182, 194, 0.9),rgba(35, 115, 174, 0.6),rgba(8, 35, 75, 0.5));
+      background-image: -webkit-linear-gradient(top,rgba(28, 182, 194, 0.9),rgba(35, 115, 174, 0.6),rgba(8, 35, 75, 0.5));
+      background-image: -ms-linear-gradient(top,rgba(28, 182, 194, 0.9),rgba(35, 115, 174, 0.6),rgba(8, 35, 75, 0.5));
+      background-image: -o-linear-gradient(top,rgba(28, 182, 194, 0.9),rgba(35, 115, 174, 0.6),rgba(8, 35, 75, 0.5));
+      background-image: linear-gradient(top,rgba(28, 182, 194, 0.9),rgba(35, 115, 174, 0.6),rgba(8, 35, 75, 0.5));
     }
     .arrow_box:after {
       left: 100%;
