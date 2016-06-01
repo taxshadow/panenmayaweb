@@ -89,18 +89,12 @@
       }
       /*about.html*/
       .about .content .title {
-        font-size: 75%;
-        width: 50%;
+        font-size: 65%;
       }
       .about .content .title h3 {
-        font-size: 10px;
-        margin-top: 0px;
-      }
-      .about .content .title p {
-        font-size: 60%;
+        font-size: 16px;
       }
        /*service.html*/
-      }
       .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 1%;
       }
@@ -375,14 +369,9 @@
       }
       .about .content .title {
         font-size: 80%;
-        width: 50%;
       }
       .about .content .title h3 {
-        font-size: 11px;
-        margin-top: 17px;
-      }
-      .about .content .title p {
-        font-size: 55%;
+        font-size: 18px;
       }
       /*service.html*/
       .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
@@ -643,22 +632,6 @@
           padding-top: 51%;
           padding-left: 78%;
         }
-           /*about.html*/
-        .about .content {
-          height: 100%;
-        }
-        .about .content .title {
-          font-size: 80%;
-          width: 51%;
-        }
-        .about .content .title h3 {
-          font-size: 14px;
-          margin-top: 20px;
-          margin-bottom: 17px;
-        }
-        .about .content .title p {
-          font-size: 80%;
-        }
        /*service.html*/
         .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 5%;
@@ -914,22 +887,6 @@
         padding-top: 51%;
         padding-left: 78%;
       }
-      /*about.html*/
-        .about .content {
-          height: 100%;
-        }
-        .about .content .title {
-          font-size: 90%;
-          width: 51%;
-        }
-        .about .content .title h3 {
-          font-size: 23px;
-          margin-top: 0px;
-          margin-bottom: 23px;
-        }
-        .about .content .title p {
-          font-size: 85%;
-        }
       /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 3%;
@@ -1102,7 +1059,7 @@
         }
         .landing .content .macbook {
           left: 2%;
-          width: 50%;
+          width: 35%;
         }
       }
       @media(min-width: 641px) and (max-width: 764px){
@@ -1115,7 +1072,7 @@
         }
         .landing .content .macbook {
           left: 2%;
-          width: 50%;
+          width: 35%;
         }
         /*content*/
       .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
@@ -1133,21 +1090,10 @@
         padding-left: 78%;
       }
       /*about.html*/
-        .about .content {
-          height: 100%;
-        }
-        .about .content .title {
-          font-size: 95%;
-          width: 53%;
-        }
-        .about .content .title h3 {
-          font-size: 26px;
-          margin-top: 0px;
-          margin-bottom: 23px;
-        }
-        .about .content .title p {
-          font-size: 90%;
-        }
+      .about .content .title {
+        width: 100%;
+        background-size: 200%;
+      }
      /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 6%;
@@ -1362,21 +1308,9 @@
         left: 11%;
       }
       /*about.html*/
-        .about .content {
-          height: 100%;
-        }
-        .about .content .title {
-          font-size: 95%;
-          width: 50%;
-        }
-        .about .content .title h3 {
-          font-size: 30px;
-          margin-top: 0px;
-          margin-bottom: 23px;
-        }
-        .about .content .title p {
-          font-size: 90%;
-        }
+      .about .content .title {
+        background-size: 250%;
+      }
       /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 4.5%;
@@ -1513,19 +1447,6 @@
       .landing .content .macbook {
         left: 10%;
       }
-      /*about.html*/
-        .about .content .title {
-          font-size: 110%;
-          width: 50%;
-        }
-        .about .content .title h3 {
-          font-size: 38px;
-          margin-top: 20px;
-          margin-bottom: 40px;
-        }
-        .about .content .title p {
-          font-size: 110%;
-        }
      /*service.html*/
       .service .content .title .btn-primary {
         width: 75%;
