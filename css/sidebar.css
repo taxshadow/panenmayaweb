@@ -424,7 +424,34 @@ body,html{
     }
   }
 @media (min-width: 765px) and (max-width: 991px){
-
+  nav.sidebar {
+    height: 13% !important;
+    width: 100%;
+    margin-left: 0 !important;
+    padding: 0 0;
+  }
+  nav.sidebar .navbar-brand {
+    width: 80% !important;
+    margin-top: 0 !important;
+  }
+  .navbar-default .navbar-collapse {
+    background-color: white;
+  }
+  .navbar .contact .col-md-2 {
+    width: 7%;
+  }
+  .navbar .contact img:nth-child(1), .navbar .contact img:nth-child(2), .navbar .contact img:nth-child(3) {
+    margin: 0;
+  }
+  .navbar .contact p:nth-child(1), .navbar .contact p:nth-child(2), .navbar .contact p:nth-child(3) {
+    margin: 0 0;
+  }
+  .navbar .social-media {
+    display: inline-block;
+  }
+  .navbar-toggle {
+    display: block;
+  }
       /*navbar*/
       .navbar {
         padding-top: 5px;
