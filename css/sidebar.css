@@ -9,44 +9,6 @@ body,html{
     height: 100%;
   }
 
-  .main{
-      position: absolute;
-      width: calc(100% - 40px); 
-      margin-left: 40px;
-      float: right;
-    }
-
-    nav.sidebar:hover + .main{
-      margin-left: 200px;
-    }
-
-    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-      margin-top: 10px;
-      margin-left: 20px;
-    }
-
-    nav.sidebar .navbar-header{
-      text-align: center;
-      width: 100%;
-      margin-left: 0px;
-    }
-    
-    nav.sidebar a{
-      padding: 7px 10px;
-    }
-
-    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
-      padding: 0 0px 0 0px;
-    }
-
-    nav.sidebar{
-      height: 100%;
-      float: left;
-      margin-bottom: 0px;
-      box-shadow: none;
-      border-width: 0 0;
-    }
-
   nav.sidebar, .main{
     -webkit-transition: margin 200ms ease-out;
       -moz-transition: margin 200ms ease-out;
@@ -92,7 +54,6 @@ body,html{
     overflow: hidden;
     white-space: nowrap;
     margin-left: -15px;
-    width: 100%;
   }
 
   .navbar-nav {
@@ -434,22 +395,14 @@ body,html{
   }
 @media (min-width: 765px) and (max-width: 991px){
       /*navbar*/
-      nav.sidebar{
-      height: 9%;
-      width: 100%;
-      float: left;
-    }
-    .navbar-toggle {
-      display: block;
-    }
       .navbar {
         padding-top: 5px;
         margin-bottom: 10px;
       }
       .navbar-header .navbar-brand {
-        width: 80%;
         height: 60px;
-        background-size: 25%;
+        margin-left: 10px;
+        background-size: 165px;
       }
       .navbar-nav {
         margin-top: 0;
@@ -465,6 +418,57 @@ body,html{
         margin-bottom: 15px;
       }
     }
+ @media (min-width: 765px) {
+
+    .main{
+      position: absolute;
+      width: calc(100% - 40px); 
+      margin-left: 40px;
+      float: right;
+    }
+
+    nav.sidebar:hover + .main{
+      margin-left: 200px;
+    }
+
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    
+    nav.sidebar a{
+      padding: 7px 10px;
+    }
+
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+
+    nav.sidebar{
+      height: 100%;
+      margin-left: -160px;
+      float: left;
+      margin-bottom: 0px;
+      border-color: none;
+      box-shadow: none;
+      border-width: 0 0;
+      background-color: none;
+    }
+
+    nav.sidebar:hover{
+      margin-left: 0px;
+    }
+
+    .forAnimate{
+      opacity: 0;
+    }
+  }
   @media (min-width: 992px) and (max-width: 1329px){
      /*navbar*/
       .navbar {
@@ -475,9 +479,6 @@ body,html{
         height: 70px;
         margin-left: 10px;
         background-size: 180px;
-      }
-      .navbar-toggle {
-
       }
       .navbar-nav {
         margin-top: 0;
