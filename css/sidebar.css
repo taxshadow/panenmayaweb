@@ -420,7 +420,6 @@ body,html{
       margin: 0 0;
     }
     .navbar .social-media {
-      display: inline-block;
     }
   }
 @media (min-width: 765px) and (max-width: 991px){
