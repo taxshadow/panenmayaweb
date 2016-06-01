@@ -299,10 +299,14 @@ body,html{
       }
       .social-media {
         margin-bottom: 15px;
-        margin-left: 32%;
+        text-align: center;
+        padding-right: 5%;
+        margin-left: 0;
       }
       .copyright {
-        margin-left: 14%;
+        text-align: center;
+        padding-right: 5%;
+        margin-left: 0;
       }
   }
 
@@ -393,7 +397,97 @@ body,html{
         font-size: 100%;
       }
   }
-@media (min-width: 765px) and (max-width: 991px){
+  @media (min-width: 765px) and (max-width: 767px) {
+    nav.sidebar {
+      height: 13% !important;
+      width: 100%;
+      margin-left: 0 !important;
+    }
+    nav.sidebar .navbar-brand {
+      width: 80% !important;
+      margin-top: 0 !important;
+      background-size: 34%;
+    }
+    .navbar-toggle {
+      margin-top: 3%;
+    }
+    .navbar-header {
+      background-color: #fff;
+    }
+    .navbar-nav {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 10px;
+      }
+    .navbar-nav hr {
+        margin-left: 5px;
+        width: 105%;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 1px;
+        margin-top: 7px;
+      }
+    .navbar-nav > li > a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .navbar .contact {
+      display: none;
+    }
+    .copyright {
+      margin-left: 25%;
+      font-size: 120%;
+    }
+    .navbar-default .navbar-collapse {
+      background-color: white;
+      margin-top: ;
+    }
+    .navbar .contact .col-md-2 {
+      width: 7%;
+    }
+    .navbar .contact img:nth-child(1), .navbar .contact img:nth-child(2), .navbar .contact img:nth-child(3) {
+      margin: 0;
+    }
+    .navbar .contact p:nth-child(1), .navbar .contact p:nth-child(2), .navbar .contact p:nth-child(3) {
+      margin: 0 0;
+    }
+    .social-media {
+      margin-bottom: 15px;
+      margin-left: 37%;
+    }
+  }
+@media (min-width: 768px) and (max-width: 991px){
+  nav.sidebar {
+    height: 13% !important;
+    width: 100%;
+    margin-left: 0 !important;
+    padding: 0 0;
+  }
+  nav.sidebar .navbar-brand {
+    width: 80% !important;
+    margin-top: 0 !important;
+  }
+  .navbar-default .navbar-collapse {
+    background-color: white;
+  }
+  .navbar .contact .col-md-2 {
+    width: 7%;
+  }
+  .navbar .contact img:nth-child(1), .navbar .contact img:nth-child(2), .navbar .contact img:nth-child(3) {
+    margin: 0;
+  }
+  .navbar .contact p:nth-child(1), .navbar .contact p:nth-child(2), .navbar .contact p:nth-child(3) {
+    margin: 0 0;
+  }
+  .navbar .social-media {
+    display: inline-block;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+>>>>>>> 19ce0c21c334f71992b93a608f49c7a0089b4773
       /*navbar*/
       .navbar {
         padding-top: 5px;
@@ -408,6 +502,7 @@ body,html{
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 10px;
+        width: 100% !important;
       }
       .navbar-nav > li > a {
         padding-top: 5px;
