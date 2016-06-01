@@ -538,11 +538,10 @@
     }
     .contact .btn-primary:hover {
       background-image: none;
-      background-color: #acacac;
+      background-color: rgba(255, 255, 255, 0.1);
       border-width: 2px 2px;
-      border-color: #daddde;
+      border-color: rgba(255, 255, 255, 0.6);
       border-radius: 0;
-      opacity: 0.8;
     }
     .contact .content .btn {
       font-size: 16px;
