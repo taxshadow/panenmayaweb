@@ -1059,7 +1059,7 @@
         }
         .landing .content .macbook {
           left: 2%;
-          width: 35%;
+          width: 50%;
         }
       }
       @media(min-width: 641px) and (max-width: 764px){
@@ -1072,7 +1072,7 @@
         }
         .landing .content .macbook {
           left: 2%;
-          width: 35%;
+          width: 50%;
         }
         /*content*/
       .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
