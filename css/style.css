@@ -436,10 +436,11 @@
     }
     /*partner.html*/
     .partner .content {
-      background-image: url('../img/partner/background.png');
+      background-image: url('../img/partner/partner.png');
       background-repeat: no-repeat;
       height: 100%;
       margin-left: 22%;
+      background-size: 125%;
     }
 
     .partner .content .col-md-2 {
