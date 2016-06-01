@@ -1287,7 +1287,7 @@
         }
       }
 
-      @media (min-width: 765px) and (max-width: 991px){
+      @media (min-width: 768px) and (max-width: 991px){
         /*content*/
       .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
       .partner .content, .contact .content {
@@ -1303,17 +1303,18 @@
 
       /*index.html*/
       .landing .content .macbook {
-        left: 2%;
-        width: 47%;
+        left: 23%;
+        width: 40%;
+        bottom: 4%;
       }
       .landing .content .ipad {
-        right: -8%;
-        top: 26%;
+        right: -12%;
+        top: 16%;
         width: 47%;
       }
       .landing .content .iphone {
         left: 35%;
-        top: 30%;
+        top: 15%;
         width: 30%;
       }
       .landing .content .text {
@@ -1322,7 +1323,7 @@
       }
       .landing .content .btn-primary {
         bottom: 6%;
-        right: 7%;
+        right: 3%;
         width: 15%;
       }
       /*about.html*/
