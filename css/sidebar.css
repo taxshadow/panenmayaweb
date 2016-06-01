@@ -65,7 +65,7 @@ body,html{
   }
   .navbar-nav hr {
     margin-left: 5px;
-    width: 220px;
+    width: 100%;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.2);
     height: 1px;
@@ -459,44 +459,18 @@ body,html{
     }
   }
 @media (min-width: 768px) and (max-width: 991px){
-  nav.sidebar {
-    height: 13% !important;
-    width: 100%;
-    margin-left: 0 !important;
-    padding: 0 0;
-  }
-  nav.sidebar .navbar-brand {
-    width: 80% !important;
-    margin-top: 0 !important;
-  }
-  .navbar-default .navbar-collapse {
-    background-color: white;
-  }
-  .navbar .contact .col-md-2 {
-    width: 7%;
-  }
-  .navbar .contact img:nth-child(1), .navbar .contact img:nth-child(2), .navbar .contact img:nth-child(3) {
-    margin: 0;
-  }
-  .navbar .contact p:nth-child(1), .navbar .contact p:nth-child(2), .navbar .contact p:nth-child(3) {
-    margin: 0 0;
-  }
-  .navbar .social-media {
-    display: inline-block;
-  }
-  .navbar-toggle {
-    display: block;
-  }
 >>>>>>> 19ce0c21c334f71992b93a608f49c7a0089b4773
       /*navbar*/
-      .navbar {
+      .navbar-default {
         padding-top: 5px;
         margin-bottom: 10px;
+        width: 25% !important;
       }
       .navbar-header .navbar-brand {
         height: 60px;
         margin-left: 10px;
-        background-size: 165px;
+        background-size: 95%;
+        margin-left: 10px !important;
       }
       .navbar-nav {
         margin-top: 0;
@@ -533,7 +507,7 @@ body,html{
 
     nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
       text-align: center;
-      width: 99%;
+      width: 95%;
       margin-left: 0px;
       background-color: white;
     }
@@ -548,7 +522,6 @@ body,html{
 
     nav.sidebar{
       height: 100%;
-      margin-left: -160px;
       float: left;
       margin-bottom: 0px;
       border-color: none;
