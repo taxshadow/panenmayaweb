@@ -398,11 +398,8 @@ body,html{
       }
   }
   @media (min-width: 765px) and (max-width: 767px) {
-    .navbar-default {
-      padding: 10px 0;
-    }
     nav.sidebar {
-      height: 12% !important;
+      height: 13% !important;
       width: 100%;
       margin-left: 0 !important;
     }
@@ -517,6 +514,7 @@ body,html{
       }
     }
  @media (min-width: 765px) {
+
     .main{
       position: absolute;
       width: calc(100% - 40px); 
@@ -538,6 +536,7 @@ body,html{
       width: 100%;
       margin-left: 0px;
     }
+    
     nav.sidebar a{
       padding: 7px 10px;
     }
