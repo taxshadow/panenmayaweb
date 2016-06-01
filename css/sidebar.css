@@ -299,10 +299,14 @@ body,html{
       }
       .social-media {
         margin-bottom: 15px;
-        margin-left: 32%;
+        text-align: center;
+        padding-right: 5%;
+        margin-left: 0;
       }
       .copyright {
-        margin-left: 14%;
+        text-align: center;
+        padding-right: 5%;
+        margin-left: 0;
       }
   }
 
