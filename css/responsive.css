@@ -1320,6 +1320,11 @@
         bottom: 10%;
         width: 40%;
       }
+      .landing .content .btn-primary {
+        bottom: 6%;
+        right: 7%;
+        width: 15%;
+      }
       /*about.html*/
       .about .content .title {
         background-size: 250%;
