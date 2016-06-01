@@ -466,6 +466,7 @@ body,html{
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 10px;
+        width: 100% !important;
       }
       .navbar-nav > li > a {
         padding-top: 5px;
