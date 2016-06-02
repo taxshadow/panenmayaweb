@@ -1599,13 +1599,16 @@
         height: 79%;
       }
       .landing .content .macbook {
-        left: 4%;
+        display: none;
       }
       .landing .content .ipad {
-        top: 35%;
+       width: 45%;
+       top: 35%;
       }
       .landing .content .iphone {
         top: 35%;
+        width: 45%;
+        left: 10%;
       }
       .landing .content .text {
         bottom: 7%;
@@ -1654,16 +1657,20 @@
         height: 79%;
       }
       .landing .content .macbook {
-        left: 4%;
+        display: none;
       }
       .landing .content .ipad {
-        top: 35%;
+        top: 33%;
+        width: 35%;
       }
       .landing .content .iphone {
         top: 35%;
+        width: 40%;
+        left: 10%;
       }
       .landing .content .text {
         bottom: 7%;
+        right: 2%;
       }
       .landing .content .btn-primary {
         width: 15%;
@@ -1734,16 +1741,21 @@
         height: 82%;
       }
       .landing .content .macbook {
-        left: 4%;
+        left: 2%;
+        width: 45%;
+        bottom: 1%;
       }
       .landing .content .ipad {
+        width: 40%;
         top: 30%;
       }
       .landing .content .iphone {
-        top: 35%;
+        top: 30%;
+        width: 30%;
+        left: 38%;
       }
       .landing .content .text {
-        bottom: 5%;
+        bottom: 3%;
       }
       .landing .content .btn-primary {
         width: 15%;
