@@ -228,7 +228,7 @@
 
       /*contact.html*/
         .contact .content{
-        background-size: 250%;
+        background-size: 224%;
         height: 100%;
           }
         .contact .content .arrow{
@@ -272,6 +272,7 @@
         }
         #map1{
           display: all;
+          height: 122%;
         }
         .contact .content .col-md-6 a {
         	margin-left: -2%;
@@ -509,7 +510,7 @@
       /*contact.html*/
 
        .contact .content{
-        background-size: 250%;
+        background-size: 224%;
         height:100%;
           }
           .contact .content .pesan {
@@ -778,7 +779,7 @@
 
         /*contact.html*/
        .contact .content{
-        background-size: 250%;
+        background-size: 179%;
         height: 100%;
           }
         .contact .content .arrow {
@@ -1043,7 +1044,7 @@
 
       /*contact.html*/
         .contact .content{
-        background-size: 250%;
+        background-size: 180%;
           }
           .contact .content .arrow {
             width:25%;
@@ -1053,7 +1054,7 @@
             margin-top: 20%;
           }
           .contact .content .arrow_box{
-            padding-left: 5%;
+            padding-left: 12%;
             height: 100%; 
 
           }
@@ -1266,7 +1267,7 @@
       }
       /*contact.html*/
         .contact .content{
-        background-size: 250%;
+        background-size: 133%;
           }
         .contact .content .arrow{
           width: 25%;
@@ -1275,7 +1276,7 @@
           width: 75%;
         }
         .contact .content .arrow_box{
-          padding-left: 5%;
+          padding-left: 12%;
           }
         .contact .content .arrow_box h3{
           margin-top: -10%;
@@ -1365,6 +1366,48 @@
         .partner .content .col-xs-12 {
           height: 33.3%;
           width: 50%;
+        }
+        /*contact.html*/
+        .contact .content{
+        background-size: 120%;
+        margin-left: 0;
+        }
+        .contact .content .arrow{
+          width: 25%;
+        }
+        .contact .content .pesan{
+          width: 75%;
+        }
+        .contact .content .arrow_box{
+          padding-left: 15%;
+        }
+        .contact .content .col-md-6 input:nth-child(1){
+          background-color: #fff; 
+          opacity: 0.5; 
+          width: 420px; 
+          height: 40px;
+          margin-left: -5px;
+        }
+        .contact .content .col-md-6 input:nth-child(2){
+          background-color: #fff; 
+          opacity: 0.5; 
+          width: 420px; 
+          height: 40px;
+          margin-left: -5px;
+        }
+        .contact .content .col-md-6 textarea{
+          width: 420px; 
+          margin-top: 8px;
+          margin-left: -5px;
+        }
+        
+        #map1{
+          display: all;
+        }
+        .contact .content .col-md-6 a{
+          margin-left: -1%;
+          width: 420px;
+          height: 50px;
         }
       }
 
@@ -1502,10 +1545,10 @@
       }
         /*contact.html*/
         .contact .content {
-          background-size: 267%;
+          background-size: 125%;
         }
         .contact .content .arrow{
-          width: 25%;
+          display: none;
         }
         .contact .content .col-sm-6 {
           margin-left: 0;
@@ -1521,6 +1564,10 @@
         }
         .contact .content .pesan{
           margin-top: 40%;
+          margin-left: 18%;
+        }
+        #map1 {
+          width: 128%;
         }
       }
 
@@ -1631,9 +1678,18 @@
       background-size: 71%;
     }
     .contact .content {
-          background-size: 250%;
-      }
-
+      background-size: 100%;
+    }
+    .arrow_box {
+      display: none;
+    }
+    .pesan {
+      margin-left: -7%;
+    }
+    #map1 {
+      width: 128%;
+      height: 101%;
+    }
 	}
 
   
