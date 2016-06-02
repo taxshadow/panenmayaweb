@@ -74,7 +74,7 @@
 }
 @media (max-width: 240px){
   /*content*/
-      .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, .partner .content, .contact .content {
+      .service .content, .portfolio-1 .content, .portfolio-2 .content, .partner .content, .contact .content {
         margin-left: 0;        
         margin-top: 50px;
         float: left;
@@ -192,13 +192,24 @@
         width: 30%;
       }
        /*portfolio-in.html*/
+        /*content*/
+      .portfolio .content {
+        margin-left: 0;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 90%;
+      }
+       .portfolio .content #content img {
+        margin-left: 13%!important;
+      } 
       .portfolio .content .col-md-3 h3:nth-child(1) {
-        font-size: 8px;
+        font-size: 7px;
       }
       .portfolio .content .col-md-3 h3:nth-child(2) {
-        font-size: 8px;
+        font-size: 7px;
         padding-top: 0px;
-        margin-top: -6px;
+        margin-top: -9px;
       }
       .portfolio .content .col-md-3 h6 {
         font-size: 5px;
@@ -206,14 +217,17 @@
        }
       .portfolio .content .col-md-3 h5 {
         margin-left: 0px;
-        font-size: 5px;
+        font-size: 6px;
         margin-top: 0px;
         margin-bottom: 0px;
       }
+      .portfolio .content .title h5 li {
+        margin-left: 3px!important;
+      }
       .portfolio .content .title:after {
-        border-width: 6px; 
+        border-width: 5px; 
         margin-top: -35px;
-        top: 36%;
+        top: 29%;
       }
       /*partner.html*/
       .partner .content .col-xs-12 {
@@ -367,7 +381,7 @@
     @media(min-width: 241px) and (max-width: 320px){
       /*content*/
       .service .content, .portfolio-1 .content, .portfolio-2 .content,
-      .portfolio .content, .partner .content, .contact .content {
+      .partner .content, .contact .content {
         margin-left: 0;        
         margin-top: 48px;
         float: left;
@@ -482,29 +496,43 @@
         width: 30%;
       }
       /*portfolio-in.html*/
+        /*content*/
+      .portfolio .content {
+        margin-left: 0;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 90%;
+      } 
+      .portfolio .content #content img {
+        margin-left: 13%!important;
+      }
       .portfolio .content .col-md-3 h3:nth-child(1) {
         font-size: 9px;
       }
       .portfolio .content .col-md-3 h3:nth-child(2) {
         font-size: 9px;
         padding-top: 0px;
-        margin-top: -6px;
+        margin-top: -9px;
       }
       .portfolio .content .col-md-3 h6 {
         font-size: 6px;
-        margin-top: -7px;
+        margin-top: -5px;
        }
-      .portfolio .content .col-md-3 h5{
-        font-size: 6px;
+      .portfolio .content .col-md-3 h5 {
         margin-left: 0px;
-        margin-bottom: 0px;
+        font-size: 7px;
         margin-top: 0px;
+        margin-bottom: -2px;
+      }
+      .portfolio .content .title h5 li {
+        margin-left: 3px!important;
       }
       .portfolio .content .title:after {
-        border-width: 7px; 
-        margin-top: -16px;
+        border-width: 5px; 
+        margin-top: -35px;
+        top: 30%;
       }
-
       /*partner.html*/
       .partner .content .col-md-4 {
         height: 16.66%;
@@ -648,7 +676,7 @@
       @media(min-width: 321px) and (max-width: 480px) {
          /*content*/
         .service .content, .portfolio-1 .content, .portfolio-2 .content,
-        .portfolio .content, .partner .content, .contact .content {
+        .partner .content, .contact .content {
           margin-left: 0;
           margin-top: 60px;
           float: left;
@@ -756,28 +784,42 @@
           width: 45%;
         }
        /*portfolio-in.html*/
+        /*content*/
+      .portfolio .content {
+        margin-left: 0;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 90%;
+      } 
+      .portfolio .content #content img {
+        margin-left: 13%!important;
+      }
       .portfolio .content .col-md-3 h3:nth-child(1) {
-        font-size: 12px;
+        font-size: 10px;
       }
       .portfolio .content .col-md-3 h3:nth-child(2) {
-        font-size: 12px;
+        font-size: 10px;
         padding-top: 0px;
-        margin-top: -6px;
+        margin-top: -9px;
       }
       .portfolio .content .col-md-3 h6 {
-        font-size: 7px;
-        margin-bottom: 1px;
-        margin-top: 1px;
+        font-size: 6px;
+        margin-top: -5px;
        }
-      .portfolio .content .col-md-3 h5{
-        font-size: 8px;
-        margin-left: 11px;
+      .portfolio .content .col-md-3 h5 {
+        margin-left: 0px;
+        font-size: 7px;
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: -2px;
+      }
+      .portfolio .content .title h5 li {
+        margin-left: 3px!important;
       }
       .portfolio .content .title:after {
-        border-width: 10px; 
-        margin-top: -30px;
+        border-width: 5px; 
+        margin-top: -35px;
+        top: 30%;
       }
 
         /*partner.html*/
@@ -924,7 +966,7 @@
       }
       @media(min-width: 481px) and (max-width: 640px){
         /*content*/
-      .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .service .content, .portfolio-1 .content, .portfolio-2 .content,
       .partner .content, .contact .content {
         margin-left: 0;
         margin-top: 65px;
@@ -1033,28 +1075,43 @@
         width: 60%;
       }
       /*portfolio-in.html*/
+        /*content*/
+      .portfolio .content {
+        margin-left: 0;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 93%;
+      } 
+      .portfolio .content #content img {
+        margin-left: 11%!important;
+        width: 80%!important;
+      }
       .portfolio .content .col-md-3 h3:nth-child(1) {
         font-size: 14px;
       }
       .portfolio .content .col-md-3 h3:nth-child(2) {
         font-size: 14px;
         padding-top: 0px;
-        margin-top: -6px;
+        margin-top: -9px;
       }
       .portfolio .content .col-md-3 h6 {
-        font-size: 9px;
-        margin-bottom: 5px;
-        margin-top: 1px;
+        font-size: 8px;
+        margin-top: -5px;
        }
-      .portfolio .content .col-md-3 h5{
+      .portfolio .content .col-md-3 h5 {
+        margin-left: 0px;
         font-size: 9px;
-        margin-left: -10px;
-        margin-bottom: 2px;
         margin-top: 0px;
+        margin-bottom: -2px;
+      }
+      .portfolio .content .title h5 li {
+        margin-left: 5px!important;
       }
       .portfolio .content .title:after {
-        border-width: 13px; 
-        margin-top: -40px;
+        border-width: 7px; 
+        margin-top: -35px;
+        top: 30%;
       }
       /*partner.html*/
       .partner .content .col-md-4 {
@@ -1274,39 +1331,45 @@
       .portfolio-2 .content .up-down-arrows .arrow img {
         width: 40%;
       }
-     /*portfolio-in.html*/
-      .portfolio .content .col-md-3 {
-        font-size: 10px;
+       /*portfolio-in.html*/
+        /*content*/
+      .portfolio .content {
+        margin-left: 0;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 93%;
+      } 
+      .portfolio .content #content img {
+        margin-left: 9%!important;
+        width: 82%!important;
+        margin-top: 65px!important;
+      }
+      .portfolio .content .col-md-3 h3:nth-child(1) {
+        font-size: 21px;
+      }
+      .portfolio .content .col-md-3 h3:nth-child(2) {
+        font-size: 21px;
+        padding-top: 0px;
+        margin-top: -9px;
       }
       .portfolio .content .col-md-3 h6 {
-        font-size: 10px;
+        font-size: 11px;
+        margin-top: 0px;
        }
-      .portfolio .content .col-md-3 h5{
+      .portfolio .content .col-md-3 h5 {
+        margin-left: 0px;
         font-size: 12px;
-        margin-left: 5px;
-        margin-top: 1px;
-        margin-bottom: 1px;
+        margin-top: 0px;
+        margin-bottom: -2px;
+      }
+      .portfolio .content .title h5 li {
+        margin-left: 5px!important;
       }
       .portfolio .content .title:after {
-        border-width: 15px; 
-        margin-top: -27px;
-      }
-      .portfolio .content .col-md-9 {
-        height: 91%;
-      }
-      /*partner.html*/
-      .partner .content {
-        height: 93.4%;
-      }
-      .partner .content .col-md-4 {
-        width: 50%;
-        height: 33.35%;
-      }
-      .partner .content .col-xs-12 img {
-        width: 75%;
-      }
-      .partner .content .title .btn-primary {
-        width: 90%;
+        border-width: 9px; 
+        margin-top: -35px;
+        top: 30%;
       }
       /*contact.html*/
         .contact .content{
@@ -1410,6 +1473,47 @@
           height: 33.3%;
           width: 50%;
         }
+        /*portfolio-in.html*/
+        /*content*/
+      .portfolio .content {
+        margin-left: 0;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 93%;
+      } 
+      .portfolio .content #content img {
+        margin-left: 8%!important;
+        width: 85%!important;
+        margin-top: 90px!important;
+      }
+      .portfolio .content .col-md-3 h3:nth-child(1) {
+        font-size: 22px;
+        margin-top: 35%;
+      }
+      .portfolio .content .col-md-3 h3:nth-child(2) {
+        font-size: 22px;
+        padding-top: 0px;
+        margin-top: -9px;
+      }
+      .portfolio .content .col-md-3 h6 {
+        font-size: 13px;
+        margin-top: 0px;
+       }
+      .portfolio .content .col-md-3 h5 {
+        margin-left: 0px;
+        font-size: 14px;
+        margin-top: 3px;
+        margin-bottom: -2px;
+      }
+      .portfolio .content .title h5 li {
+        margin-left: 5px!important;
+      }
+      .portfolio .content .title:after {
+        border-width: 11px; 
+        margin-top: -35px;
+        top: 40%;
+      }
         /*contact.html*/
         .contact .content{
         background-size: 120%;
