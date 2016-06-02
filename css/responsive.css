@@ -74,7 +74,7 @@
 }
 @media (max-width: 240px){
   /*content*/
-      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, .partner .content, .contact .content {
+      .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, .partner .content, .contact .content {
         margin-left: 0;        
         margin-top: 50px;
         float: left;
@@ -88,6 +88,14 @@
         padding-left: 78%;
       }
       /*about.html*/
+      /*content*/
+      .about .content {
+        margin-left: 0px;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 94%;
+      } 
       .about .content .title {
         font-size: 90%;
         width: 51%;
@@ -357,7 +365,7 @@
     }
     @media(min-width: 241px) and (max-width: 320px){
       /*content*/
-      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content,
+      .service .content, .portfolio-1 .content, .portfolio-2 .content,
       .portfolio .content, .partner .content, .contact .content {
         margin-left: 0;        
         margin-top: 48px;
@@ -372,6 +380,14 @@
         padding-left: 78%;
       }
         /*about.html*/
+         /*content*/
+      .about .content {
+        margin-left: 0px;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 94%;
+      } 
       .about .content .title {
         font-size: 90%;
         width: 51%;
@@ -630,7 +646,7 @@
       }
       @media(min-width: 321px) and (max-width: 480px) {
          /*content*/
-        .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content,
+        .service .content, .portfolio-1 .content, .portfolio-2 .content,
         .portfolio .content, .partner .content, .contact .content {
           margin-left: 0;
           margin-top: 60px;
@@ -645,6 +661,14 @@
           padding-left: 78%;
         }
         /*about.html*/
+        /*content*/
+      .about .content {
+        margin-left: 0px;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 94%;
+      } 
         .about .content .title {
           font-size: 90%;
           width: 51%;
@@ -899,7 +923,7 @@
       }
       @media(min-width: 481px) and (max-width: 640px){
         /*content*/
-      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
       .partner .content, .contact .content {
         margin-left: 0;
         margin-top: 65px;
@@ -908,6 +932,14 @@
       }
 
       /*index.html*/
+      /*content*/
+      .about .content {
+        margin-left: 0px;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 94%;
+      } 
       .landing .content {
         background-position: top;
         padding-top: 51%;
@@ -1060,8 +1092,6 @@
           margin-top: 70%;
           margin-left: 0;
         }
-        
-        }
         .contact .content .col-md-6 input:nth-child(1){
           background-color: #fff; 
           opacity: 0.5; 
@@ -1123,7 +1153,7 @@
           width: 17%;
         }
         /*content*/
-      .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
       .partner .content, .contact .content {
         margin-left: 0;
         margin-top: 67px;
@@ -1132,6 +1162,14 @@
       }
 
       /*index.html*/
+      /*content*/
+      .about .content {
+        margin-left: 0px;        
+        margin-top: 50px;
+        float: left;
+        width: 100%;
+        height: 94%;
+      } 
       .landing .content {
         background-position: top;
         padding-top: 51%;
@@ -1672,8 +1710,26 @@
         font-size: 60%;
       }
 
-      .about .content, .service .content, .portfolio-2 .content {
+      .service .content, .portfolio-2 .content {
         height:200%;
+      }
+      /*about.html*/
+      .about .content {
+        height: 83.1%;
+      }
+      .about .content .title {
+        font-size: 90%;
+        width: 51%;
+      }
+      .about .content .title h3 {
+        font-size: 10px;
+        margin-top: 0px;
+      }
+      .about .content .title p {
+        font-size: 6px;
+      }
+      .about .content .title:after {
+        border-width: 9px;
       }
       /*portfolio.html*/
       .portfolio-1 .content {
@@ -1695,7 +1751,7 @@
       }
     }
     @media (min-width: 321px) and (max-width: 480px) and (orientation:landscape) {
-      .about .content, .service .content, .portfolio-2 .content {
+      .service .content, .portfolio-2 .content {
         height: 150%;
       }
       /*index.html*/
@@ -1729,6 +1785,24 @@
       }
       .landing .content .btn {
         font-size: 60%;
+      }
+      /*about.html*/
+      .about .content {
+        height: 81.4%;
+      }
+      .about .content .title {
+        font-size: 90%;
+        width: 51%;
+      }
+      .about .content .title h3 {
+        font-size: 11px;
+        margin-top: 0px;
+      }
+      .about .content .title p {
+        font-size: 8px;
+      }
+      .about .content .title:after {
+        border-width: 9px;
       }
       /*portfolio.html*/
       .portfolio-1 .content {
@@ -1816,11 +1890,26 @@
         font-size: 60%;
       }
 
-      .about .content {
-        height: 130%;
-      }
       .service .content, .portfolio-2 .content {
         height: 200%;
+      }
+      /*about.html*/
+       .about .content {
+        height: 82%;
+      }
+      .about .content .title {
+        font-size: 90%;
+        width: 51%;
+      }
+      .about .content .title h3 {
+        font-size: 15px;
+        margin-top: 0px;
+      }
+      .about .content .title p {
+        font-size: 9px;
+      }
+      .about .content .title:after {
+        border-width: 11px;
       }
       /*portfolio.html*/
       .portfolio-1 .content {
@@ -1915,12 +2004,26 @@
         width: 15%;
         bottom: 5%;
       }
-
-      .about .content {
-        height: 130%;
-      }
       .service .content, .portfolio-2 .content {
         height: 200%;
+      }
+      /*about.html*/
+       .about .content {
+        height: 82%;
+      }
+      .about .content .title {
+        font-size: 90%;
+        width: 51%;
+      }
+      .about .content .title h3 {
+        font-size: 18px;
+        margin-top: 0px;
+      }
+      .about .content .title p {
+        font-size: 11px;
+      }
+      .about .content .title:after {
+        border-width: 13px;
       }
       /*prtfolio.html*/
       .portfolio-1 .content {
