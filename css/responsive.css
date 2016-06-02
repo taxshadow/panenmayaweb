@@ -1010,6 +1010,7 @@
           }
           .contact .content .pesan {
             width: 75%;
+            margin-top: 20%;
           }
           .contact .content .arrow_box{
             padding-left: 5%;
@@ -1017,10 +1018,15 @@
 
           }
         .contact .content .arrow_box h3{
-          margin-top: 70%;
+          margin-top: 0;
           margin-left: 0;
+          font-size: 140%;
         }
-        
+        .contact .content .arrow_box h5 {
+          font-size: 80%;
+        }
+        .contact .content .arrow_box h6 {
+          font-size: 70%;
         }
         .contact .content .col-md-6 input:nth-child(1){
           background-color: #fff; 
@@ -1775,9 +1781,16 @@
       }
       .contact .content .pesan{
         margin-bottom: 2%;
+        margin-top: 10%;
       }
       .contact .content .arrow_box h3{
         margin-top: -66%;
+      }
+      .contact .content .arrow_box h5 {
+        font-size: 85%;
+      }
+      .contact .content .arrow_box h6 {
+        font-size: 75%;
       }
       /*PARTNER.html*/
       .partner .content .col-md-2 .title{
