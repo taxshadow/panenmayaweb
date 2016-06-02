@@ -236,7 +236,7 @@
 
       /*contact.html*/
         .contact .content{
-        background-size: 250%;
+        background-size: 224%;
         height: 100%;
           }
         .contact .content .arrow{
@@ -280,6 +280,7 @@
         }
         #map1{
           display: all;
+          height: 122%;
         }
         .contact .content .col-md-6 a {
         	margin-left: -2%;
@@ -525,7 +526,7 @@
       /*contact.html*/
 
        .contact .content{
-        background-size: 250%;
+        background-size: 224%;
         height:100%;
           }
           .contact .content .pesan {
@@ -802,7 +803,7 @@
 
         /*contact.html*/
        .contact .content{
-        background-size: 250%;
+        background-size: 179%;
         height: 100%;
           }
         .contact .content .arrow {
@@ -1075,23 +1076,34 @@
 
       /*contact.html*/
         .contact .content{
-        background-size: 250%;
+        background-size: 180%;
           }
           .contact .content .arrow {
             width:25%;
           }
           .contact .content .pesan {
             width: 75%;
+            margin-top: 20%;
           }
           .contact .content .arrow_box{
-            padding-left: 5%;
+            padding-left: 12%;
             height: 100%; 
 
           }
         .contact .content .arrow_box h3{
-          margin-top: 70%;
+          margin-top: 0;
           margin-left: 0;
+          font-size: 140%;
         }
+<<<<<<< HEAD
+=======
+        .contact .content .arrow_box h5 {
+          font-size: 80%;
+        }
+        .contact .content .arrow_box h6 {
+          font-size: 70%;
+        }
+>>>>>>> 149b4c8c4874f47c766a3f95e3f6e916886b7415
         .contact .content .col-md-6 input:nth-child(1){
           background-color: #fff; 
           opacity: 0.5; 
@@ -1298,7 +1310,7 @@
       }
       /*contact.html*/
         .contact .content{
-        background-size: 250%;
+        background-size: 133%;
           }
         .contact .content .arrow{
           width: 25%;
@@ -1307,7 +1319,7 @@
           width: 75%;
         }
         .contact .content .arrow_box{
-          padding-left: 5%;
+          padding-left: 12%;
           }
         .contact .content .arrow_box h3{
           margin-top: -10%;
@@ -1397,6 +1409,48 @@
         .partner .content .col-xs-12 {
           height: 33.3%;
           width: 50%;
+        }
+        /*contact.html*/
+        .contact .content{
+        background-size: 120%;
+        margin-left: 0;
+        }
+        .contact .content .arrow{
+          width: 25%;
+        }
+        .contact .content .pesan{
+          width: 75%;
+        }
+        .contact .content .arrow_box{
+          padding-left: 15%;
+        }
+        .contact .content .col-md-6 input:nth-child(1){
+          background-color: #fff; 
+          opacity: 0.5; 
+          width: 420px; 
+          height: 40px;
+          margin-left: -5px;
+        }
+        .contact .content .col-md-6 input:nth-child(2){
+          background-color: #fff; 
+          opacity: 0.5; 
+          width: 420px; 
+          height: 40px;
+          margin-left: -5px;
+        }
+        .contact .content .col-md-6 textarea{
+          width: 420px; 
+          margin-top: 8px;
+          margin-left: -5px;
+        }
+        
+        #map1{
+          display: all;
+        }
+        .contact .content .col-md-6 a{
+          margin-left: -1%;
+          width: 420px;
+          height: 50px;
         }
       }
 
@@ -1534,10 +1588,10 @@
       }
         /*contact.html*/
         .contact .content {
-          background-size: 267%;
+          background-size: 125%;
         }
         .contact .content .arrow{
-          width: 25%;
+          display: none;
         }
         .contact .content .col-sm-6 {
           margin-left: 0;
@@ -1553,6 +1607,10 @@
         }
         .contact .content .pesan{
           margin-top: 40%;
+          margin-left: 18%;
+        }
+        #map1 {
+          width: 128%;
         }
       }
 
@@ -1663,9 +1721,18 @@
       background-size: 71%;
     }
     .contact .content {
-          background-size: 250%;
-      }
-
+      background-size: 100%;
+    }
+    .arrow_box {
+      display: none;
+    }
+    .pesan {
+      margin-left: -7%;
+    }
+    #map1 {
+      width: 128%;
+      height: 101%;
+    }
 	}
 
   
@@ -1762,16 +1829,17 @@
         height: 79%;
       }
       .landing .content .macbook {
-        display: none;
+        width: 37%;
+        left: 3%;
       }
       .landing .content .ipad {
         top: 33%;
-        width: 35%;
+        width: 43%;
       }
       .landing .content .iphone {
-        top: 35%;
-        width: 40%;
-        left: 10%;
+        top: 32%;
+        width: 33%;
+        left: 30%;
       }
       .landing .content .text {
         bottom: 7%;
@@ -1962,9 +2030,16 @@
       }
       .contact .content .pesan{
         margin-bottom: 2%;
+        margin-top: 10%;
       }
       .contact .content .arrow_box h3{
         margin-top: -66%;
+      }
+      .contact .content .arrow_box h5 {
+        font-size: 85%;
+      }
+      .contact .content .arrow_box h6 {
+        font-size: 75%;
       }
       /*PARTNER.html*/
       .partner .content .col-md-2 .title{
@@ -2088,8 +2163,14 @@
       }
     }
     @media (min-width: 765px) and (max-width: 991px) and (orientation:landscape) {
+      nav.sidebar .navbar-brand, nav.sidebar .navbar-header {
+        width: 100%;
+      }
       .landing .content {
         height: 100%;
+      }
+      .landing .content .text {
+        width: 44%;
       }
       .about .content {
         height: 100%;
