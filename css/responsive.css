@@ -120,6 +120,9 @@
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
       .service .content .col-md-10 .col-md-3 img {
         width: 7%;
       }
@@ -143,7 +146,7 @@
       }
       .service .content .title:after {
       border-width: 10px;
-    }
+      } 
       /*portfolio-1.html*/
       .portfolio-1 .content {
         height: 100%;
@@ -423,6 +426,9 @@
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
         padding-top: 3px;
       }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
@@ -554,7 +560,7 @@
       /*contact.html*/
 
        .contact .content{
-        background-size: 224%;
+        background-size: 250%;
         height:100%;
           }
           .contact .content .pesan {
@@ -717,6 +723,9 @@
       }
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
         padding-top: 6px;
+      }
+      .service .content .col-md-10 {
+        width: 80%;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
@@ -1013,6 +1022,9 @@
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
       .service .content .col-md-10 .col-md-3 img {
         width: 6%;
         margin-top: 0px;
@@ -1133,7 +1145,7 @@
 
       /*contact.html*/
         .contact .content{
-        background-size: 180%;
+        background-size: 211%;
           }
           .contact .content .arrow {
             width:25%;
@@ -1152,15 +1164,12 @@
           margin-left: 0;
           font-size: 140%;
         }
-<<<<<<< HEAD
-=======
         .contact .content .arrow_box h5 {
           font-size: 80%;
         }
         .contact .content .arrow_box h6 {
           font-size: 70%;
         }
->>>>>>> 149b4c8c4874f47c766a3f95e3f6e916886b7415
         .contact .content .col-md-6 input:nth-child(1){
           background-color: #fff; 
           opacity: 0.5; 
@@ -1265,6 +1274,9 @@
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
         padding-top: 23px;
         font-size: 24px;
+      }
+      .service .content .col-md-10 {
+        width: 80%;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
@@ -1373,7 +1385,7 @@
       }
       /*contact.html*/
         .contact .content{
-        background-size: 133%;
+        background-size: 160%;
           }
         .contact .content .arrow{
           width: 25%;
@@ -1444,6 +1456,49 @@
       .landing .content .btn-primary {
           width: 15%;
           bottom: 5%;
+      }
+      /*service.html*/
+       .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
+        padding-top: 6%;
+      }
+      .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
+        padding-top: 23px;
+        font-size: 24px;
+      }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
+      .service .content .col-md-10 .col-md-3 {
+        height: 12.5%;
+      }
+      .service .content .col-md-10 .col-md-3 img {
+        width: 8%;
+        margin-top: -11px;
+      }
+      .service .content .col-md-10 .col-md-3 h4 {
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 4px;
+      }
+      .service .content .col-md-10 .col-md-3 p {
+        font-size: 45%;
+      }
+      .service .content .title h3 {
+        font-size: 19px;
+      }
+      .service .content .title .btn-primary {
+        width: 92%;
+        height: 30px;
+        font-size: 19px;
+        padding: 0 0;
+        border-width: 1px;
+      }
+      .service .content .title:after {
+      border-width: 22px;
+      }
+      .service .content {
+      margin-left: 0;
+      background-size: 310%;
       }
         .portfolio-1 #section .col-md-6 {
           height: 25%;
@@ -1516,7 +1571,7 @@
       }
         /*contact.html*/
         .contact .content{
-        background-size: 120%;
+        background-size: 150%;
         margin-left: 0;
         }
         .contact .content .arrow{
@@ -1609,17 +1664,21 @@
         padding-top: 12px;
         font-size: 21px;
       }
+      .service .content .col-md-10 {
+        width: 78.5%;
+        padding-left: 12%;
+      }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
       .service .content .col-md-10 .col-md-3 img {
         width: 5%;
-        margin-top: -30px;
+        margin-top: 10px;
       }
       .service .content .col-md-10 .col-md-3 h4 {
         font-size: 11px;
         margin-bottom: 5px;
-        margin-top: -3px;
+        margin-top: 10px;
       }
       .service .content .col-md-10 .col-md-3 p {
         font-size: 45%;
@@ -1692,7 +1751,7 @@
       }
         /*contact.html*/
         .contact .content {
-          background-size: 125%;
+          background-size: 150%;
         }
         .contact .content .arrow{
           display: none;
@@ -1701,7 +1760,7 @@
           margin-left: 0;
         }
         #map1{
-          height: 101%;
+          height: 100%;
         }
         .contact .content .arrow_box {
           margin-left: -20%;
@@ -1753,8 +1812,15 @@
         width: 35%;
       }
      /*service.html*/
+     .service .content {
+      background-size: 112%;
+     }
       .service .content .title .btn-primary {
         width: 75%;
+      }
+      .service .content .col-md-10 {
+        padding-left: 16%;
+        width: 78.84%;
       }
       .service .content .col-md-10 .col-md-3 img {
         width: 23%;
@@ -1825,7 +1891,7 @@
       background-size: 71%;
     }
     .contact .content {
-      background-size: 100%;
+      background-size: 120%;
     }
     .arrow_box {
       display: none;
@@ -1835,7 +1901,7 @@
     }
     #map1 {
       width: 128%;
-      height: 101%;
+      height: 100%;
     }
 	}
 
