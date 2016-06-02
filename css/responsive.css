@@ -1657,16 +1657,17 @@
         height: 79%;
       }
       .landing .content .macbook {
-        display: none;
+        width: 37%;
+        left: 3%;
       }
       .landing .content .ipad {
         top: 33%;
-        width: 35%;
+        width: 43%;
       }
       .landing .content .iphone {
-        top: 35%;
-        width: 40%;
-        left: 10%;
+        top: 32%;
+        width: 33%;
+        left: 30%;
       }
       .landing .content .text {
         bottom: 7%;
@@ -1936,8 +1937,14 @@
       }
     }
     @media (min-width: 765px) and (max-width: 991px) and (orientation:landscape) {
+      nav.sidebar .navbar-brand, nav.sidebar .navbar-header {
+        width: 100%;
+      }
       .landing .content {
         height: 100%;
+      }
+      .landing .content .text {
+        width: 45%;
       }
       .about .content {
         height: 100%;
