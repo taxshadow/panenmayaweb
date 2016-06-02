@@ -120,6 +120,9 @@
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
       .service .content .col-md-10 .col-md-3 img {
         width: 7%;
       }
@@ -143,7 +146,7 @@
       }
       .service .content .title:after {
       border-width: 10px;
-    }
+      } 
       /*portfolio-1.html*/
       .portfolio-1 .content {
         height: 100%;
@@ -408,6 +411,9 @@
       }
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
         padding-top: 3px;
+      }
+      .service .content .col-md-10 {
+        width: 80%;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
@@ -690,6 +696,9 @@
       .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
         padding-top: 6px;
       }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
@@ -971,6 +980,9 @@
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
       .service .content .col-md-10 .col-md-3 img {
         width: 6%;
         margin-top: 0px;
@@ -1206,6 +1218,9 @@
         padding-top: 23px;
         font-size: 24px;
       }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
@@ -1379,6 +1394,49 @@
           width: 15%;
           bottom: 5%;
       }
+      /*service.html*/
+       .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
+        padding-top: 6%;
+      }
+      .service .content #hover-1, .service .content #hover-2, .service .content #hover-3, .service .content #hover-4, .service .content #hover-5, .service .content #hover-6, .service .content #hover-7, .service .content #hover-8 {
+        padding-top: 23px;
+        font-size: 24px;
+      }
+      .service .content .col-md-10 {
+        width: 80%;
+      }
+      .service .content .col-md-10 .col-md-3 {
+        height: 12.5%;
+      }
+      .service .content .col-md-10 .col-md-3 img {
+        width: 8%;
+        margin-top: -11px;
+      }
+      .service .content .col-md-10 .col-md-3 h4 {
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 4px;
+      }
+      .service .content .col-md-10 .col-md-3 p {
+        font-size: 45%;
+      }
+      .service .content .title h3 {
+        font-size: 19px;
+      }
+      .service .content .title .btn-primary {
+        width: 92%;
+        height: 30px;
+        font-size: 19px;
+        padding: 0 0;
+        border-width: 1px;
+      }
+      .service .content .title:after {
+      border-width: 22px;
+      }
+      .service .content {
+      margin-left: 0;
+      background-size: 310%;
+      }
         .portfolio-1 #section .col-md-6 {
           height: 25%;
           width: 100%;
@@ -1502,17 +1560,21 @@
         padding-top: 12px;
         font-size: 21px;
       }
+      .service .content .col-md-10 {
+        width: 78.5%;
+        padding-left: 12%;
+      }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
       }
       .service .content .col-md-10 .col-md-3 img {
         width: 5%;
-        margin-top: -30px;
+        margin-top: 10px;
       }
       .service .content .col-md-10 .col-md-3 h4 {
         font-size: 11px;
         margin-bottom: 5px;
-        margin-top: -3px;
+        margin-top: 10px;
       }
       .service .content .col-md-10 .col-md-3 p {
         font-size: 45%;
@@ -1646,8 +1708,15 @@
         width: 35%;
       }
      /*service.html*/
+     .service .content {
+      background-size: 112%;
+     }
       .service .content .title .btn-primary {
         width: 75%;
+      }
+      .service .content .col-md-10 {
+        padding-left: 16%;
+        width: 78.84%;
       }
       .service .content .col-md-10 .col-md-3 img {
         width: 23%;
