@@ -510,7 +510,7 @@
       /*contact.html*/
 
        .contact .content{
-        background-size: 224%;
+        background-size: 250%;
         height:100%;
           }
           .contact .content .pesan {
@@ -1044,7 +1044,7 @@
 
       /*contact.html*/
         .contact .content{
-        background-size: 180%;
+        background-size: 211%;
           }
           .contact .content .arrow {
             width:25%;
@@ -1267,7 +1267,7 @@
       }
       /*contact.html*/
         .contact .content{
-        background-size: 133%;
+        background-size: 160%;
           }
         .contact .content .arrow{
           width: 25%;
@@ -1369,7 +1369,7 @@
         }
         /*contact.html*/
         .contact .content{
-        background-size: 120%;
+        background-size: 150%;
         margin-left: 0;
         }
         .contact .content .arrow{
@@ -1545,7 +1545,7 @@
       }
         /*contact.html*/
         .contact .content {
-          background-size: 125%;
+          background-size: 150%;
         }
         .contact .content .arrow{
           display: none;
@@ -1554,7 +1554,7 @@
           margin-left: 0;
         }
         #map1{
-          height: 101%;
+          height: 100%;
         }
         .contact .content .arrow_box {
           margin-left: -20%;
@@ -1678,7 +1678,7 @@
       background-size: 71%;
     }
     .contact .content {
-      background-size: 100%;
+      background-size: 120%;
     }
     .arrow_box {
       display: none;
@@ -1688,7 +1688,7 @@
     }
     #map1 {
       width: 128%;
-      height: 101%;
+      height: 100%;
     }
 	}
 
