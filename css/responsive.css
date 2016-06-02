@@ -89,11 +89,19 @@
       }
       /*about.html*/
       .about .content .title {
-        font-size: 65%;
+        font-size: 90%;
+        width: 51%;
       }
       .about .content .title h3 {
-        font-size: 16px;
+        font-size: 10px;
       }
+      .about .content .title p {
+        font-size: 6px;
+      }
+      .about .content .title:after {
+        border-width: 7px;
+      }
+
        /*service.html*/
       .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 1%;
@@ -363,15 +371,19 @@
         padding-top: 50%;
         padding-left: 78%;
       }
-      /*about.html*/
-      .about .content {
-        height: 100%;
-      }
+        /*about.html*/
       .about .content .title {
-        font-size: 80%;
+        font-size: 90%;
+        width: 51%;
       }
       .about .content .title h3 {
-        font-size: 18px;
+        font-size: 12px;
+      }
+      .about .content .title p {
+        font-size: 7px;
+      }
+      .about .content .title:after {
+        border-width: 7px;
       }
       /*service.html*/
       .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
@@ -632,6 +644,20 @@
           padding-top: 51%;
           padding-left: 78%;
         }
+        /*about.html*/
+        .about .content .title {
+          font-size: 90%;
+          width: 51%;
+        }
+        .about .content .title h3 {
+          font-size: 14px;
+        }
+        .about .content .title p {
+          font-size: 9px;
+        }
+        .about .content .title:after {
+          border-width: 9px;
+        }
        /*service.html*/
         .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 5%;
@@ -887,6 +913,20 @@
         padding-top: 51%;
         padding-left: 78%;
       }
+      /*about.html*/
+        .about .content .title {
+          font-size: 90%;
+          width: 51%;
+        }
+        .about .content .title h3 {
+          font-size: 18px;
+        }
+        .about .content .title p {
+          font-size: 12px;
+        }
+        .about .content .title:after {
+          border-width: 10px;
+        }
       /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 3%;
@@ -1010,6 +1050,7 @@
           }
           .contact .content .pesan {
             width: 75%;
+            margin-top: 20%;
           }
           .contact .content .arrow_box{
             padding-left: 5%;
@@ -1017,10 +1058,15 @@
 
           }
         .contact .content .arrow_box h3{
-          margin-top: 70%;
+          margin-top: 0;
           margin-left: 0;
+          font-size: 140%;
         }
-        
+        .contact .content .arrow_box h5 {
+          font-size: 80%;
+        }
+        .contact .content .arrow_box h6 {
+          font-size: 70%;
         }
         .contact .content .col-md-6 input:nth-child(1){
           background-color: #fff; 
@@ -1097,11 +1143,20 @@
         padding-top: 51%;
         padding-left: 78%;
       }
-      /*about.html*/
-      .about .content .title {
-        width: 100%;
-        background-size: 200%;
-      }
+       /*about.html*/
+        .about .content .title {
+          font-size: 90%;
+          width: 51%;
+        }
+        .about .content .title h3 {
+          font-size: 20px;
+        }
+        .about .content .title p {
+          font-size: 14px;
+        }
+        .about .content .title:after {
+          border-width: 12px;
+        }
      /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 6%;
@@ -1825,9 +1880,16 @@
       }
       .contact .content .pesan{
         margin-bottom: 2%;
+        margin-top: 10%;
       }
       .contact .content .arrow_box h3{
         margin-top: -66%;
+      }
+      .contact .content .arrow_box h5 {
+        font-size: 85%;
+      }
+      .contact .content .arrow_box h6 {
+        font-size: 75%;
       }
       /*PARTNER.html*/
       .partner .content .col-md-2 .title{
