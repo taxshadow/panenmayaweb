@@ -153,6 +153,10 @@
       }
       .portfolio-1 #section .col-md-6 {
         height: 25%;
+        width: 100%;
+      }
+      .portfolio-1 #section .col-md-6 img {
+        width: 72%;
       }
       .portfolio-1 .content .up-down-arrows {
         margin-left: 16.85%;
@@ -161,7 +165,7 @@
         width: 25px;
       }
       .portfolio-1 .content .col-md-2 {
-        width: 24.76%;
+        width: 25.76%;
       }
       .portfolio-1 .content .title {
         padding-left: 5%;
@@ -449,6 +453,10 @@
       }
       .portfolio-1 .content #section .col-md-6 {
         height: 25%;
+        width: 100%;
+      }
+      .portfolio-1 .content #section .col-md-6 img {
+        width: 70%;
       }
       .portfolio-1 .content .up-down-arrows {
         margin-left: 20.85%;
@@ -457,7 +465,7 @@
         width: 30%;
       }
       .portfolio-1 .content .col-md-2 {
-        width: 24.76%;
+        width: 25.76%;
       }
       .portfolio-1 .content .title {
         padding-left: 5%;
@@ -642,15 +650,15 @@
         left: 0;
         z-index: -1;
       }
-        .landing .content .btn-primary {
-          width: 44%;
-          height: 8%;
-          font-size: 180%;
-          position: fixed;
-          bottom: 12%;
-          right: 14%;
-        }
+      .landing .content .btn-primary {
+        width: 44%;
+        height: 8%;
+        font-size: 180%;
+        position: fixed;
+        bottom: 12%;
+        right: 14%;
       }
+    }
       @media(min-width: 321px) and (max-width: 480px) {
          /*content*/
         .service .content, .portfolio-1 .content, .portfolio-2 .content,
@@ -728,14 +736,18 @@
       border-width: 15px;
     }
         /*portfolio-1.html*/
-        .portfolio-1 #section .col-xs-12 {
+        .portfolio-1 #section .col-xs-6 {
           height: 25%;
+          width: 100%;
+        }
+        .portfolio-1 #section .col-xs-6 img {
+          width: 70%;
         }
         .portfolio-1 .content .up-down-arrows {
           margin-left: 27.85%;
         }
         .portfolio-1 .content .col-md-2 {
-          width: 24.76%;
+          width: 25.76%;
         }
         .portfolio-1 .content .title {
           padding-right: 8%;
@@ -1012,11 +1024,15 @@
       .portfolio-1 .content .col-md-10 .col-md-6 {
         height: 50%;
       }
-      .portfolio-1 #section .col-xs-12 {
+      .portfolio-1 #section .col-xs-6 {
         height: 25%;
+        width: 100%;
+      }
+      .portfolio-1 #section .col-xs-6 img {
+        width: 50%;
       }
       .portfolio-1 .content .col-xs-3 {
-        width: 25%;
+        width: 26%;
       }
       .portfolio-1 .content .title {
         padding-right: 10%;
@@ -1255,9 +1271,14 @@
       /*portfolio-1.html*/
       .portfolio-1 #section .col-md-6 {
         height: 25%;
+        width: 100%;
+        padding: 3%;
+      }
+      .portfolio-1 #section .col-md-6 img {
+        width: 55%;
       }
       .portfolio-1 .content .col-md-2 {
-        width: 25%;
+        width: 26%;
       }
       .portfolio-1 .content .title h3 {
         font-size: 150%;
@@ -1437,12 +1458,20 @@
       margin-left: 0;
       background-size: 310%;
       }
+
+      .portfolio-1 .content {
+        margin-left: 0;
+      }
         .portfolio-1 #section .col-md-6 {
           height: 25%;
           width: 100%;
+          padding: 3%;
+        }
+        .portfolio-1 #section .col-md-6 img {
+          width: 60%;
         }
         .portfolio-1 .content .col-md-2 {
-          width: 22.7%;
+          width: 25.7%;
         }
         .portfolio-2 #section .col-xs-6 {
           height: 25%;
