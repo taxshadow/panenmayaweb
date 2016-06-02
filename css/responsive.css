@@ -1562,7 +1562,7 @@
       }
       .service .content .col-md-10 {
         width: 78.5%;
-        padding-left: 12%;
+        padding-left: 17%;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
@@ -1717,6 +1717,9 @@
       .service .content .col-md-10 {
         padding-left: 16%;
         width: 78.84%;
+      }
+      .service .content .col-md-10 .col-md-3 p {
+        font-size: 80%;
       }
       .service .content .col-md-10 .col-md-3 img {
         width: 23%;
