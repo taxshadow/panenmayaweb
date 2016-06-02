@@ -108,4 +108,7 @@ $(document).ready(function(){
         $("#scroll-1").show();
         $("#section-1").slideDown(700);
       });
+      $('.content').sliphover({
+        backgroundColor: 'rgba(30, 184, 196, 0.8)'
+      });
 });
