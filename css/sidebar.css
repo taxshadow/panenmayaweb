@@ -482,6 +482,9 @@ body,html{
         padding-bottom: 5px;
         font-size: 14px;
       }
+      .navbar .contact p {
+        font-size: 80%;
+      }
       .navbar-nav .social-media {
         margin-bottom: 15px;
       }
