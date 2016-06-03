@@ -468,7 +468,7 @@ body,html{
       .navbar-header .navbar-brand {
         height: 60px;
         margin-left: 10px;
-        background-size: 80%;
+        background-size: 78%;
         margin-left: 10px !important;
       }
       .navbar-nav {
@@ -485,21 +485,21 @@ body,html{
       .navbar .contact .col-sm-10 {
         width: 80%;
       }
-      .navbar .contact p {
-        font-size: 73%;
-      }
       .navbar-nav .social-media {
         margin-bottom: 15px;
       }
+      .navbar .contact img:nth-child(1) {
+        margin-top: -4px;
+      }
       .navbar .contact img:nth-child(3) {
-        margin-top: 12px!important;
+        margin-top: 18px!important;
       }
       .copyright li {
         font-size: 8.9px!important;
         width: 136%;
       }
       .navbar .contact p {
-        font-size: 74%;
+        font-size: 85%;
       }
     }
  @media (min-width: 765px) {
