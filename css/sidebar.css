@@ -175,10 +175,10 @@ body,html{
   }
 
   .copyright li {
-    width: 100%;
+    width: 113%;
     list-style: none;
-    margin-left: -15px;
-    font-size: 77%;
+    margin-left: -40px;
+    font-size: 80%;
     color : black;
   }
 
@@ -463,7 +463,7 @@ body,html{
       .navbar-default {
         padding-top: 5px;
         margin-bottom: 10px;
-        width: 25% !important;
+        width: 27%!important;
       }
       .navbar-header .navbar-brand {
         height: 60px;
@@ -490,6 +490,25 @@ body,html{
       }
       .navbar-nav .social-media {
         margin-bottom: 15px;
+      }
+<<<<<<< HEAD
+      .copyright li {
+        width: 125%;
+        margin-left: -30px;
+=======
+      .navbar .contact img:nth-child(1) {
+        margin-top: -5px!important;
+      }
+      .navbar .contact img:nth-child(3) {
+        margin-top: 12px!important;
+      }
+      .copyright li {
+        font-size: 8.9px!important;
+        width: 136%;
+      }
+      .navbar .contact p {
+        font-size: 75%;
+>>>>>>> 1af3392692c82f9d973253c4225083aa59b80576
       }
     }
  @media (min-width: 765px) {
@@ -545,13 +564,27 @@ body,html{
   }
   @media (min-width: 992px) and (max-width: 1329px){
      /*navbar*/
+     .navbar .contact p {
+      margin-left: -8px;
+     }
+     .navbar .contact img:nth-child(1) {
+      margin-left: 1px!important;
+     } 
+     .navbar .contact img:nth-child(2) {
+      margin-top: 15px!important;
+      margin-left: 1px!important;
+     }
+      .navbar .contact img:nth-child(3) {
+        margin-top: 24px!important;
+        margin-left: 1px!important;
+      }
       .navbar {
         padding-top: 5px;
         margin-bottom: 10px;
       }
       .navbar-header .navbar-brand {
         height: 70px;
-        margin-left: 10px;
+        margin-left: 10px!important;
         background-size: 180px;
       }
       .navbar-nav {
@@ -567,13 +600,20 @@ body,html{
       .navbar-nav .social-media {
         margin-bottom: 15px;
       }
+      .navbar-default {
+        width: 25%;
+        margin-left: 15px!important;
+      } 
+      .copyright li {
+        font-size: 9px!important;
+      }
     }
    
   @media (min-width: 1330px) {
 
     .main{
       width: calc(100% - 200px);
-      margin-left: 200px;
+      margin-left: 199px;
     }
 
     nav.sidebar{
