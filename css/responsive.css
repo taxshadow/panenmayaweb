@@ -245,22 +245,31 @@
         top: 29%;
       }
       /*partner.html*/
+      .partner .content {
+        background-size: 370%;
+      }
       .partner .content .col-xs-12 {
         height: 16.66%;
         padding-top: 3%;
       }
       .partner .content .col-xs-12 img {
-        width: 45%;
+        width: 74%;
+      }
+      .partner .content .col-md-2 {
+        width: 25.5%;
       }
       .partner .content .title h3 {
-        font-size: 82%;
+        font-size: 60%;
+        text-align: right;
       }
       .partner .content .title .btn-primary {
-        width: 90%;
+        width: 125%;
         height: 25px;
-        font-size: 65%;
+        font-size: 61%;
         padding: 5% 0;
         border-width: 1px;
+        margin-top: 26%;
+        margin-left: -11%;
       }
 
       /*contact.html*/
@@ -561,21 +570,31 @@
         top: 30%;
       }
       /*partner.html*/
-      .partner .content .col-md-4 {
-        height: 16.66%;
-        padding-top: 0;
+      .partner .content {
+        background-size: 370%;
       }
-      .partner .content .col-md-4 img {
-        width: 50%;
+      .partner .content .col-xs-12 {
+        height: 16.66%;
+        padding-top: 3%;
+      }
+      .partner .content .col-xs-12 img {
+        width: 65%;
+      }
+      .partner .content .col-md-2 {
+        width: 25.5%;
       }
       .partner .content .title h3 {
-        font-size: 82%;
+        font-size: 60%;
+        text-align: right;
       }
       .partner .content .title .btn-primary {
-        width: 90%;
+        width: 125%;
         height: 25px;
-        font-size: 80%;
-        padding: 0 0;
+        font-size: 61%;
+        padding: 5% 0;
+        border-width: 1px;
+        margin-top: 26%;
+        margin-left: -11%;
       }
 
       /*contact.html*/
@@ -865,26 +884,33 @@
       }
 
         /*partner.html*/
-        .partner .content .col-xs-12 {
-          height: 16.67%;
-          padding-top: 0;
-        }
-        .partner .content .col-xs-12 img {
-          width: 38%;
-        }
-        .partner .content .title {
-          padding-left: 10%; 
-        }
-        .partner .content .title h3 {
-          font-size: 100%;
-        }
-        .partner .content .title .btn-primary{
-          width: 95%;
-          height: 30px;
-          padding: 3px 0;
-          font-size: 80%;
-        }
-
+       .partner .content {
+        background-size: 370%;
+      }
+      .partner .content .col-xs-12 {
+        height: 16.66%;
+        padding-top: 3%;
+      }
+      .partner .content .col-xs-12 img {
+        width: 125px!important;
+        height: 50px!important;
+      }
+      .partner .content .col-md-2 {
+        width: 25.5%;
+      }
+      .partner .content .title h3 {
+        font-size: 60%;
+        text-align: right;
+      }
+      .partner .content .title .btn-primary {
+        width: 125%;
+        height: 25px;
+        font-size: 61%;
+        padding: 5% 0;
+        border-width: 1px;
+        margin-top: 26%;
+        margin-left: -11%;
+      }
         /*contact.html*/
        .contact .content{
         background-size: 179%;
@@ -1171,21 +1197,32 @@
         top: 30%;
       }
       /*partner.html*/
-      .partner .content .col-md-4 {
-        width: 50%;
-        height: 33.35%;
+      .partner .content {
+        background-size: 205%;
       }
-      .partner .content .col-xs-12 img {
-        width: 100%;
+      .partner .content .col-xs-12 {
+        height: 16.66%;
+        padding-top: 3%;
       }
-      .partner .content .title {
-        padding-right: 10%;
+      .partner .content .col-md-10 img {
+        width: 125px!important;
+        height: 50px!important;
+      }
+      .partner .content .col-md-2 {
+        width: 25.5%;
       }
       .partner .content .title h3 {
-        font-size: 160%;
+        font-size: 60%;
+        text-align: right;
       }
       .partner .content .title .btn-primary {
-        width: 90%;
+        width: 125%;
+        height: 25px;
+        font-size: 61%;
+        padding: 5% 0;
+        border-width: 1px;
+        margin-top: 26%;
+        margin-left: -11%;
       }
 
       /*contact.html*/
@@ -1489,7 +1526,35 @@
           width: 420px;
           height: 50px;
         }
+        /*------------PARTNER-------------*/
+        .partner .content {
+        background-size: 154%;
       }
+      .partner .content .col-xs-12 {
+        height: 16.66%;
+        padding-top: 3%;
+      }
+      .partner .content .col-md-10 img {
+        width: 154px!important;
+        height: 67px!important;
+      }
+      .partner .content .col-md-2 {
+        width: 25.5%;
+      }
+      .partner .content .title h3 {
+        font-size: 120%;
+        text-align: right;
+      }
+      .partner .content .title .btn-primary {
+        width: 114%;
+        height: 37px;
+        font-size: 120%;
+        padding: 5% 0;
+        border-width: 1px;
+        margin-top: 26%;
+        margin-left: -11%;
+      }
+    }
 
       @media (min-width: 765px) and (max-width: 767px) and (orientation: portrait) {
         .portfolio-1 #section .col-md-6:nth-child(1),
@@ -1604,10 +1669,33 @@
           width: 40%;
         }
 
-        .partner .content .col-xs-12 {
-          height: 33.3%;
-          width: 50%;
-        }
+        .partner .content {
+        background-size: 114%;
+      }
+      .partner .content .col-xs-12 {
+        height: 16.66%;
+        padding-top: 3%;
+      }
+      .partner .content .col-md-10 img {
+        width: 154px!important;
+        height: 67px!important;
+      }
+      .partner .content .col-md-2 {
+        width: 25.5%;
+      }
+      .partner .content .title h3 {
+        font-size: 120%;
+        text-align: right;
+      }
+      .partner .content .title .btn-primary {
+        width: 114%;
+        height: 37px;
+        font-size: 120%;
+        padding: 5% 0;
+        border-width: 1px;
+        margin-top: 26%;
+        margin-left: -11%;
+      }
         /*portfolio-in.html*/
         /*content*/
       .portfolio .content {
@@ -1854,7 +1942,17 @@
         height: 33.3%;
       }
       .partner .content .col-sm-6 img {
-        width: 75%;
+        width: 200px!important;
+        height: 85px!important;
+        margin-top: -19%;
+      }
+      .partner .content .col-md-10 {
+        height: 100%
+        width: 77.5%;
+        padding-left: 17%;
+      }
+      .partner .content .col-md-2 {
+        width: 23.3%;
       }
         /*contact.html*/
         .contact .content {
@@ -1954,6 +2052,26 @@
       .service .content .title:after {
       border-width: 26px;
     }
+    /*PARTNER*/
+    .partner .content {
+        background-size: 112%;
+      }
+      .partner .content .col-sm-6 {
+        height: 33.3%;
+      }
+      .partner .content .col-sm-6 img {
+        width: 165px!important;
+        height: 73px!important;
+        margin-top: 9%;
+      }
+      .partner .content .col-md-10 {
+        height: 150%;
+        width: 74.5%;
+        padding-left: 16%;
+      }
+      .partner .content .col-md-2 {
+        width: 24%;
+      }
       /*portfolio-1.html*/
       .portfolio-1 .content .up-down-arrows {
         margin-left: 35.7%;
