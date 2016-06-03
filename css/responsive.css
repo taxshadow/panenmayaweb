@@ -238,7 +238,7 @@
         padding-top: 3%;
       }
       .partner .content .col-xs-12 img {
-        width: 40%;
+        width: 45%;
       }
       .partner .content .title h3 {
         font-size: 82%;
@@ -291,9 +291,6 @@
           width: 220px; 
           margin-top: 8px;
           margin-left: -5px;
-        }
-        .contatc .content .col-xs-12:nth-child(3){
-        	margin-top: -90%;
         }
         #map1{
           display: all;
@@ -1282,13 +1279,13 @@
         height: 12.5%;
       }
       .service .content .col-md-10 .col-md-3 img {
-        width: 8%;
-        margin-top: -11px;
+        width: 5%;
+        margin-top: -36px;
       }
       .service .content .col-md-10 .col-md-3 h4 {
-        font-size: 14px;
+        font-size: 13px;
         margin-bottom: 5px;
-        margin-top: 4px;
+        margin-top: -11px;
       }
       .service .content .col-md-10 .col-md-3 p {
         font-size: 45%;
@@ -1672,16 +1669,17 @@
         height: 12.5%;
       }
       .service .content .col-md-10 .col-md-3 img {
-        width: 5%;
-        margin-top: 10px;
+        width: 7%;
+        margin-top: -8px;
       }
       .service .content .col-md-10 .col-md-3 h4 {
         font-size: 11px;
         margin-bottom: 5px;
-        margin-top: 10px;
+        margin-top: 3px;
       }
       .service .content .col-md-10 .col-md-3 p {
         font-size: 45%;
+        margin-top: -5px;
       }
       .service .content .title h3 {
         font-size: 21px;
