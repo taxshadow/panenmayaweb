@@ -491,6 +491,10 @@ body,html{
       .navbar-nav .social-media {
         margin-bottom: 15px;
       }
+      .copyright li {
+        width: 125%;
+        margin-left: -30px;
+      }
     }
  @media (min-width: 765px) {
 

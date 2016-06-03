@@ -52,7 +52,7 @@
         width: 85%;
       }
       .landing .content .iphone {
-        width: 80%;
+        width: 60%;
         left: 10%;
         top: 15%;
       }
@@ -368,7 +368,7 @@
         width: 90%;
       }
       .landing .content .iphone {
-        width: 80%;
+        width: 60%;
         left: 8%;
         top: 20%;
       }
@@ -673,7 +673,7 @@
         display: none;
       }
       .landing .content .iphone {
-        width: 80%;
+        width: 60%;
         left: 0;
         margin-left: 10%;
         margin-top: -10%;
@@ -988,7 +988,7 @@
         }
         .landing .content .iphone {
           left: 10%;
-          width: 80%;
+          width: 60%;
           top: 17%;
         }
         .landing .content .background {
