@@ -491,14 +491,6 @@ body,html{
       .navbar-nav .social-media {
         margin-bottom: 15px;
       }
-<<<<<<< HEAD
-      .copyright li {
-        width: 125%;
-        margin-left: -30px;
-=======
-      .navbar .contact img:nth-child(1) {
-        margin-top: -5px!important;
-      }
       .navbar .contact img:nth-child(3) {
         margin-top: 12px!important;
       }
@@ -508,7 +500,6 @@ body,html{
       }
       .navbar .contact p {
         font-size: 75%;
->>>>>>> 1af3392692c82f9d973253c4225083aa59b80576
       }
     }
  @media (min-width: 765px) {
