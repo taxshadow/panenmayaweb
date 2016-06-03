@@ -153,6 +153,18 @@
       }
       .portfolio-1 #section .col-md-6 {
         height: 25%;
+        width: 100%;
+      }
+      .portfolio-1 #section .col-md-6:nth-child(1),
+      .portfolio-1 #section .col-md-6:nth-child(3) {
+        background-color: rgba(128, 128, 128, 0.3);
+      }    
+      .portfolio-1 #section .col-md-6:nth-child(2),
+      .portfolio-1 #section .col-md-6:nth-child(4) {
+        background-color: rgba(128, 128, 128, 0.5);
+      }
+      .portfolio-1 #section .col-md-6 img {
+        width: 72%;
       }
       .portfolio-1 .content .up-down-arrows {
         margin-left: 16.85%;
@@ -161,7 +173,7 @@
         width: 25px;
       }
       .portfolio-1 .content .col-md-2 {
-        width: 24.76%;
+        width: 25.76%;
       }
       .portfolio-1 .content .title {
         padding-left: 5%;
@@ -460,6 +472,18 @@
       }
       .portfolio-1 .content #section .col-md-6 {
         height: 25%;
+        width: 100%;
+      }      
+      .portfolio-1 #section .col-md-6:nth-child(1),
+      .portfolio-1 #section .col-md-6:nth-child(3) {
+        background-color: rgba(128, 128, 128, 0.3);
+      }    
+      .portfolio-1 #section .col-md-6:nth-child(2),
+      .portfolio-1 #section .col-md-6:nth-child(4) {
+        background-color: rgba(128, 128, 128, 0.5);
+      }
+      .portfolio-1 .content #section .col-md-6 img {
+        width: 70%;
       }
       .portfolio-1 .content .up-down-arrows {
         margin-left: 20.85%;
@@ -468,7 +492,7 @@
         width: 30%;
       }
       .portfolio-1 .content .col-md-2 {
-        width: 24.76%;
+        width: 25.76%;
       }
       .portfolio-1 .content .title {
         padding-left: 5%;
@@ -667,15 +691,15 @@
         left: 0;
         z-index: -1;
       }
-        .landing .content .btn-primary {
-          width: 44%;
-          height: 8%;
-          font-size: 180%;
-          position: fixed;
-          bottom: 12%;
-          right: 14%;
-        }
+      .landing .content .btn-primary {
+        width: 44%;
+        height: 8%;
+        font-size: 180%;
+        position: fixed;
+        bottom: 12%;
+        right: 14%;
       }
+    }
       @media(min-width: 321px) and (max-width: 480px) {
          /*content*/
         .service .content, .portfolio-1 .content, .portfolio-2 .content,
@@ -753,14 +777,26 @@
       border-width: 15px;
     }
         /*portfolio-1.html*/
-        .portfolio-1 #section .col-xs-12 {
+        .portfolio-1 #section .col-xs-6 {
           height: 25%;
+          width: 100%;
+        }
+        .portfolio-1 #section .col-md-6:nth-child(1),
+        .portfolio-1 #section .col-md-6:nth-child(3) {
+          background-color: rgba(128, 128, 128, 0.3);
+        }    
+        .portfolio-1 #section .col-md-6:nth-child(2),
+        .portfolio-1 #section .col-md-6:nth-child(4) {
+          background-color: rgba(128, 128, 128, 0.5);
+        }
+        .portfolio-1 #section .col-xs-6 img {
+          width: 70%;
         }
         .portfolio-1 .content .up-down-arrows {
           margin-left: 27.85%;
         }
         .portfolio-1 .content .col-md-2 {
-          width: 24.76%;
+          width: 25.76%;
         }
         .portfolio-1 .content .title {
           padding-right: 8%;
@@ -1051,11 +1087,23 @@
       .portfolio-1 .content .col-md-10 .col-md-6 {
         height: 50%;
       }
-      .portfolio-1 #section .col-xs-12 {
+      .portfolio-1 #section .col-xs-6 {
         height: 25%;
+        width: 100%;
+      }
+      .portfolio-1 #section .col-md-6:nth-child(1),
+      .portfolio-1 #section .col-md-6:nth-child(3) {
+        background-color: rgba(128, 128, 128, 0.3);
+      }    
+      .portfolio-1 #section .col-md-6:nth-child(2),
+      .portfolio-1 #section .col-md-6:nth-child(4) {
+        background-color: rgba(128, 128, 128, 0.5);
+      }
+      .portfolio-1 #section .col-xs-6 img {
+        width: 50%;
       }
       .portfolio-1 .content .col-xs-3 {
-        width: 25%;
+        width: 26%;
       }
       .portfolio-1 .content .title {
         padding-right: 10%;
@@ -1194,8 +1242,15 @@
           height: 45px;
         }
       }
-      @media(min-width: 641px) and (max-width: 764px) and (orientation: portrait) {
-        
+      @media(min-width: 641px) and (max-width: 764px) and (orientation: portrait) {        
+        .portfolio-1 #section .col-md-6:nth-child(1),
+        .portfolio-1 #section .col-md-6:nth-child(3) {
+          background-color: rgba(128, 128, 128, 0.3);
+        }    
+        .portfolio-1 #section .col-md-6:nth-child(2),
+        .portfolio-1 #section .col-md-6:nth-child(4) {
+          background-color: rgba(128, 128, 128, 0.5);
+        }
       }
       @media(min-width: 641px) and (max-width: 764px){
         .landing .content .background, .landing .content .line, .landing .content .vector {
@@ -1307,11 +1362,16 @@
       background-size: 310%;
     }
       /*portfolio-1.html*/
-      .portfolio-1 #section .col-md-6 {
+      .portfolio-1 #section .col-sm-6 {
         height: 25%;
+        width: 100%;
+        padding: 3%;
+      }
+      .portfolio-1 #section .col-md-6 img {
+        width: 55%;
       }
       .portfolio-1 .content .col-md-2 {
-        width: 25%;
+        width: 26%;
       }
       .portfolio-1 .content .title h3 {
         font-size: 150%;
@@ -1326,6 +1386,10 @@
       /*portfolio-2.html*/
       .portfolio-2 #section .col-xs-6 {
         height: 25%;
+        text-align: center;
+      }
+      .portfolio-2 .content #main-wrap #section img {
+        width: 60%;
       }
       .portfolio-2 .content #section .col-xs-6:nth-child(9),
       .portfolio-2 .content #section .col-xs-6:nth-child(10),
@@ -1334,8 +1398,8 @@
         display: none;
       }
       .portfolio-2 .content .up-down-arrows {
-        margin-left: 43.5%;
-        width: 25%;
+        margin-left: 42.5%;
+        width: 15%;
       }
       .portfolio-2 .content .up-down-arrows .arrow img {
         width: 40%;
@@ -1427,6 +1491,17 @@
         }
       }
 
+      @media (min-width: 765px) and (max-width: 767px) and (orientation: portrait) {
+        .portfolio-1 #section .col-md-6:nth-child(1),
+        .portfolio-1 #section .col-md-6:nth-child(3) {
+          background-color: rgba(128, 128, 128, 0.3);
+        }    
+        .portfolio-1 #section .col-md-6:nth-child(2),
+        .portfolio-1 #section .col-md-6:nth-child(4) {
+          background-color: rgba(128, 128, 128, 0.5);
+        }
+
+      }
 
       @media (min-width: 765px) and (max-width: 767px){
 
@@ -1497,12 +1572,20 @@
       margin-left: 0;
       background-size: 310%;
       }
+
+      .portfolio-1 .content {
+        margin-left: 0;
+      }
         .portfolio-1 #section .col-md-6 {
           height: 25%;
           width: 100%;
+          padding: 3%;
+        }
+        .portfolio-1 #section .col-md-6 img {
+          width: 55%;
         }
         .portfolio-1 .content .col-md-2 {
-          width: 22.7%;
+          width: 25.7%;
         }
         .portfolio-2 #section .col-xs-6 {
           height: 25%;
@@ -1612,7 +1695,7 @@
 
       @media (min-width: 768px) and (max-width: 991px){
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content,
+      .landing .content, .about .content, .service .content, .portfolio-2 .content, .portfolio .content,
       .partner .content, .contact .content {
         margin-left: 70px;
       }
@@ -1625,10 +1708,14 @@
 
 
       /*index.html*/
+      .landing .content .background, .landing .content .line, .landing .content .vector {
+        left: 25%;
+        width: 75%;
+      }
       .landing .content .macbook {
-        left: 23%;
+        left: 26%;
         width: 40%;
-        bottom: 4%;
+        bottom: 5%;
       }
       .landing .content .ipad {
         right: -12%;
@@ -1647,7 +1734,7 @@
       .landing .content .btn-primary {
         bottom: 6%;
         right: 3%;
-        width: 15%;
+        width: 13%;
       }
       /*about.html*/
       .about .content .title {
@@ -1695,8 +1782,30 @@
       border-width: 18px;
     }
       /*portfolio-1.hml*/
+      .portfolio-1 .content {
+        margin-left: 25%;
+      }
+      .portfolio-1 .content .col-md-10 {
+        width: 68%;
+      }
+      .portfolio-1 #section .col-md-6 {
+        height: 25%;
+        width: 100%;
+      }
+      .portfolio-1 #section .col-md-6:nth-child(1), .portfolio-1 #section .col-md-6:nth-child(3) {
+        background-color: rgba(128, 128, 128, 0.3);
+      }
+      .portfolio-1 #section .col-md-6:nth-child(2), .portfolio-1 #section .col-md-6:nth-child(4) {
+        background-color: rgba(128, 128, 128, 0.5);
+      }
+      .portfolio-1 .content #main-wrap a {
+        padding: 6% 0;
+      }
+      .portfolio-1 #section .col-md-6 img {
+        width: 50%;
+      }
       .portfolio-1 .content .col-md-2 {
-        width: 23.2%;
+        width: 24%;
       }
       .portfolio-1 .content .up-down-arrows {
         margin-left: 29.7%;
