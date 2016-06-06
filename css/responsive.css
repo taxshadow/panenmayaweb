@@ -2883,6 +2883,13 @@
         height: 120%;
         width: auto;
       }
+      /*---------ContactUS----------*/
+      .contact .content .arrow_box h3 {
+        margin-top: 0;
+      }
+      .contact .content .pesan {
+        margin-top: 20%;
+      }
     }
     @media (min-width: 991px) and (max-width: 1329px) and (orientation:landscape) {
       .about .content, .portfolio-1 .content, .portfolio-2 .content, .service .content {
