@@ -2019,13 +2019,13 @@
       }
      /*service.html*/
      .service .content {
-      background-size: 100%;
+      background-size: 112%;
      }
       .service .content .title .btn-primary {
         width: 75%;
       }
       .service .content .col-md-10 {
-        padding-left: 17%;
+        padding-left: 16%;
         width: 78.84%;
       }
       .service .content .col-md-10 .col-md-3 p {
