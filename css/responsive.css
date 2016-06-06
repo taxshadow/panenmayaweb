@@ -2113,13 +2113,13 @@
 		  
       /*index.html*/
       .landing .content .background, .landing .content .line, .landing .content .vector {
-        left: 26%;
-        width: 75%;
+        left: 24%;
+        width: 76%;
       }
       .landing .content .macbook {
-        left: 28%;
+        left: 26%;
         width: 35%;
-        bottom: 5%;
+        bottom: 4%;
       }
       .landing .content .ipad {
         right: -7%;
@@ -2213,10 +2213,10 @@
       }
       /*portfolio-1.html*/
       .portfolio-1 .content {
-        margin-left: 25%;
+        margin-left: 24%;
       }
       .portfolio-1 .content .col-md-10 {
-        width: 79%;
+        width: 79.2%;
       }
       .portfolio-1 .content #main-wrap a {
         padding-top: 15%;
@@ -2225,7 +2225,7 @@
         width: 75%;
       }
       .portfolio-1 .content .up-down-arrows {
-        margin-left: 24.5%;
+        margin-left: 25.5%;
       }
       .portfolio-1 .content .col-md-2 {
         width: 15.76%;
@@ -2235,13 +2235,13 @@
       }
       /*portfolio-2.html*/
       .portfolio-2 .content {
-        margin-left: 27%;
+        margin-left: 24%;
       }
       .portfolio-2 .content a {
         padding: 25% 5%;
       }
       .portfolio-2 .content .up-down-arrows {
-        margin-left: 31.4%;
+        margin-left: 33.4%;
       }
       /*portfolio-in.html*/
       .portfolio .content .col-md-3 {
