@@ -1237,6 +1237,7 @@
       /*partner.html*/
       .partner .content {
         background-size: 251%;
+        height: initial;
       }
       .partner .content .col-xs-12 {
         height: 16.66%;
@@ -1757,8 +1758,9 @@
           width: 40%;
         }
 
-        .partner .content {
-        background-size: 114%;
+      .partner .content {
+        background-size: 173%;
+        margin-left: 0;
       }
       .partner .content .col-xs-12 {
         height: 16.66%;
@@ -2770,6 +2772,10 @@
         margin-top: -50%;
       }
       /*PARTNER.html*/
+      .partner .content {
+        background-size: 261%;
+        height: initial;
+      }
       .partner .content .col-md-2 .title{
         padding-top: 45%;
       }
