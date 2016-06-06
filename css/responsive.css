@@ -2135,7 +2135,6 @@
         bottom: 7%;
         width: 35%;
       }
-<<<<<<< HEAD
       /*about.html*/
        .about .content .title {
           font-size: 100%;
@@ -2153,11 +2152,9 @@
         .about .content .title:after {
           border-width: 12px;
         }
-=======
       .landing .content .btn-primary {
         right: 4%;
       }
->>>>>>> 7295094f0fc143a6538cc8f290d45a0c50afeef2
      /*service.html*/
      .service .content {
       background-size: 112%;
