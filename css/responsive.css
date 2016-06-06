@@ -2019,13 +2019,13 @@
       }
      /*service.html*/
      .service .content {
-      background-size: 112%;
+      background-size: 100%;
      }
       .service .content .title .btn-primary {
         width: 75%;
       }
       .service .content .col-md-10 {
-        padding-left: 16%;
+        padding-left: 17%;
         width: 78.84%;
       }
       .service .content .col-md-10 .col-md-3 p {
@@ -2051,7 +2051,7 @@
         border-width: 1px;
       }
       .service .content .title:after {
-      border-width: 26px;
+      border-width: 16px;
     }
     /*PARTNER*/
     .partner .content {
