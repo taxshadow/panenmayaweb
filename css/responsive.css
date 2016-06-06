@@ -1873,7 +1873,7 @@
 
       @media (min-width: 768px) and (max-width: 991px){
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-2 .content, .portfolio .content,
+      .landing .content, .about .content, .service .content, .portfolio .content,
       .partner .content, .contact .content {
         margin-left: 70px;
       }
@@ -2033,22 +2033,30 @@
         width: 30%;
       }
      /*portfolio-in.html*/
+      .portfolio .content img {
+        width : 70%!important;
+        margin-top: 14%!important;
+        margin-left: 27%!important;
+      }
       .portfolio .content .col-md-3 {
         font-size: 9px;
         margin-top: 0px;
       }
+      .portfolio .content .title h3 {
+        font-size: 20px;
+      }
       .portfolio .content .col-md-3 h6 {
-        font-size: 12px;
+        font-size: 11px;
        }
       .portfolio .content .col-md-3 h5{
-        font-size: 13px;
+        font-size: 12px;
         margin-left: -10px;
         margin-top: 2px;
         margin-bottom: 2px;
         padding-left: 20%;
       }
       .portfolio .content .title:after {
-        border-width: 17px; 
+        border-width: 12px; 
         margin-top: -60px;
       }
       .portfolio .content .col-md-9 {
@@ -2239,27 +2247,35 @@
       .portfolio-2 .content .up-down-arrows {
         margin-left: 33.4%;
       }
-      /*portfolio-in.html*/
+     /*portfolio-in.html*/
+      .portfolio .content img {
+        width : 69%!important;
+        margin-top: 14%!important;
+        margin-left: 29%!important;
+      }
       .portfolio .content .col-md-3 {
-        font-size: 13px;
+        font-size: 9px;
         margin-top: 0px;
       }
+      .portfolio .content .title h3 {
+        font-size: 23px;
+      }
       .portfolio .content .col-md-3 h6 {
-        font-size: 14px;
+        font-size: 12px;
        }
       .portfolio .content .col-md-3 h5{
-        font-size: 15px;
-        margin-left: -5px;
-        margin-top: 3px;
-        margin-bottom: 3px;
+        font-size: 13px;
+        margin-left: -10px;
+        margin-top: 7px;
+        margin-bottom: 0;
         padding-left: 20%;
       }
       .portfolio .content .title:after {
-        border-width: 21px; 
-        margin-top: -95px;
+        border-width: 12px; 
+        margin-top: -60px;
       }
       .portfolio .content .col-md-9 {
-        height: 68%;
+        height: 90%;
       }
       /*contact.html*/
 		.contact .content .col-lg-4{
