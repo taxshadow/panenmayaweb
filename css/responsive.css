@@ -2169,19 +2169,15 @@
      .service .content {
       background-size: 112%;
      }
-      .service .content .title .btn-primary {
-        width: 75%;
-      }
       .service .content .col-md-10 {
-        padding-left: 16%;
-        width: 78.84%;
+        padding-left: 17%;
+        width: 79%;
       }
       .service .content .col-md-10 .col-md-3 p {
-        font-size: 80%;
+        font-size: 75%;
       }
       .service .content .col-md-10 .col-md-3 img {
-        width: 23%;
-        margin-top: -20%;
+        width: 22%;
       }
       .service .content .col-md-10 .col-md-3 h4 {
         font-size: 18px;
