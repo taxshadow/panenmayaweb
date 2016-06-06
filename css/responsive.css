@@ -1936,15 +1936,16 @@
       }
       /*partner.html*/
       .partner .content {
-        background-size: 250%;
+        background-size: 350%;
       }
       .partner .content .col-sm-6 {
         height: 33.3%;
       }
       .partner .content .col-sm-6 img {
-        width: 200px!important;
-        height: 85px!important;
-        margin-top: -19%;
+        width: 151px!important;
+        height: 67px!important;
+        margin-top: -9%;
+        margin-left: 3%;
       }
       .partner .content .col-md-10 {
         height: 100%
@@ -1975,7 +1976,7 @@
         }
         .contact .content .pesan{
           margin-top: 40%;
-          margin-left: 18%;
+          margin-left: 21%;
         }
         #map1 {
           width: 128%;
@@ -2125,7 +2126,7 @@
       display: none;
     }
     .pesan {
-      margin-left: -7%;
+      margin-left: -2%;
     }
     #map1 {
       width: 128%;
