@@ -1594,6 +1594,25 @@
           width: 15%;
           bottom: 5%;
       }
+       /*about.html*/
+        .about .content {
+          margin-left: 0;
+        }
+        .about .content .title {
+          font-size: 90%;
+          width: 51%;
+        }
+        .about .content .title h3 {
+          font-size: 20px;
+          margin-top: 23%;
+        }
+        .about .content .title p {
+          font-size: 14px;
+        }
+        .about .content .title:after {
+          border-width: 12px;
+          top: 31%;
+        }
       /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 6%;
@@ -1825,9 +1844,22 @@
         width: 13%;
       }
       /*about.html*/
-      .about .content .title {
-        background-size: 250%;
-      }
+       .about .content .title {
+          font-size: 100%;
+          width: 56%;
+        }
+        .about .content .title h3 {
+          font-size: 20px;
+          text-align: end;
+        }
+        .about .content .title p {
+          font-size: 14px;
+          margin-left: 33%;
+          margin-right: -25%;
+        }
+        .about .content .title:after {
+          border-width: 12px;
+        }
       /*service.html*/
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 4.5%;
@@ -2017,6 +2049,23 @@
         bottom: 7%;
         width: 35%;
       }
+      /*about.html*/
+       .about .content .title {
+          font-size: 100%;
+          width: 56%;
+        }
+        .about .content .title h3 {
+          font-size: 20px;
+          margin-left: 58%;
+        }
+        .about .content .title p {
+          font-size: 14px;
+          margin-left: 32%;
+          margin-right: -25%;
+        }
+        .about .content .title:after {
+          border-width: 12px;
+        }
      /*service.html*/
      .service .content {
       background-size: 112%;
@@ -2483,7 +2532,7 @@
       }
       /*about.html*/
        .about .content {
-        height: 82%;
+        height: 95%;
       }
       .about .content .title {
         font-size: 90%;
