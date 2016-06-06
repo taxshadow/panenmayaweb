@@ -318,6 +318,7 @@
       top: 0;
       left: 0;
       position: absolute;
+      text-align: center;
     }
     .portfolio-1 #section .col-md-6:nth-child(1),
     .portfolio-1 #section .col-md-6:nth-child(4) {
@@ -438,6 +439,7 @@
       top: 0;
       left: 0;
       position: absolute;
+      text-align: center;
     } 
     .portfolio-2 #section .col-md-3:nth-child(1),
     .portfolio-2 #section .col-md-3:nth-child(3),
