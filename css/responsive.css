@@ -2193,10 +2193,11 @@
     }
     /*PARTNER*/
     .partner .content {
-        background-size: 112%;
+        margin-left: 24%;
+        background-size: 180%;
       }
       .partner .content .col-sm-6 {
-        height: 33.3%;
+        height: 50%;
       }
       .partner .content .col-sm-6 img {
         width: 165px!important;
@@ -2204,12 +2205,8 @@
         margin-top: 9%;
       }
       .partner .content .col-md-10 {
-        height: 150%;
-        width: 74.5%;
-        padding-left: 16%;
-      }
-      .partner .content .col-md-2 {
-        width: 24%;
+        height: 100%;
+        width: 73.7%;
       }
       /*portfolio-1.html*/
       .portfolio-1 .content {
