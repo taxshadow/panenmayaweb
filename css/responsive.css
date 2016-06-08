@@ -267,7 +267,7 @@
         width: 25.5%;
       }
       .partner .content .title h3 {
-        font-size: 60%;
+        font-size: 62%;
         text-align: right;
       }
       .partner .content .title .btn-primary {
@@ -600,7 +600,7 @@
         width: 25.5%;
       }
       .partner .content .title h3 {
-        font-size: 60%;
+        font-size: 64%;
         text-align: right;
       }
       .partner .content .title .btn-primary {
@@ -926,14 +926,14 @@
         width: 25.5%;
       }
       .partner .content .title h3 {
-        font-size: 60%;
+        font-size: 92%;
         text-align: right;
       }
       .partner .content .title .btn-primary {
         width: 125%;
         height: 25px;
-        font-size: 61%;
-        padding: 5% 0;
+        font-size: 65%;
+        padding: 9% 0;
         border-width: 1px;
         margin-top: 26%;
         margin-left: -11%;
@@ -1240,7 +1240,7 @@
         height: initial;
       }
       .partner .content .col-xs-12 {
-        height: 16.66%;
+        height: 100px;
         padding-top: 3%;
       }
       .partner .content .col-md-10 img {
@@ -1251,14 +1251,14 @@
         width: 25.5%;
       }
       .partner .content .title h3 {
-        font-size: 60%;
+        font-size: 120%;
         text-align: right;
       }
       .partner .content .title .btn-primary {
         width: 125%;
-        height: 25px;
-        font-size: 61%;
-        padding: 5% 0;
+        height: 27px;
+        font-size: 92%;
+        padding: 3% 0;
         border-width: 1px;
         margin-top: 26%;
         margin-left: -11%;
@@ -1596,8 +1596,8 @@
         text-align: right;
       }
       .partner .content .title .btn-primary {
-        width: 114%;
-        height: 37px;
+        width: 128%;
+        height: 35px;
         font-size: 120%;
         padding: 5% 0;
         border-width: 1px;
@@ -1759,7 +1759,7 @@
         }
 
       .partner .content {
-        background-size: 173%;
+        background-size: 180%;
         margin-left: 0;
       }
       .partner .content .col-xs-12 {
@@ -1769,6 +1769,9 @@
       .partner .content .col-md-10 img {
         width: 154px!important;
         height: 67px!important;
+      }
+      .partner .content .col-md-10 {
+        margin-top: 9%;
       }
       .partner .content .col-md-2 {
         width: 25.5%;
@@ -2083,6 +2086,12 @@
       .partner .content .col-md-2 {
         width: 23.3%;
       }
+      .partner .content .title .btn-primary {
+        width: 107%;
+        height: 39px;
+        font-size: 122%;
+        padding: 4% 0;
+      }
         /*contact.html*/
         .contact .content {
           background-size: 150%;
@@ -2197,7 +2206,7 @@
       .service .content .title:after {
       border-width: 16px;
     }
-    /*PARTNER*/
+    /*partner.html*/
     .partner .content {
         margin-left: 24%;
         background-size: 180%;
@@ -2213,6 +2222,12 @@
       .partner .content .col-md-10 {
         height: 100%;
         width: 73.7%;
+      }
+      .partner .content .title .btn-primary {
+        width: 111%;
+        height: 41px;
+        font-size: 123%;
+        padding: 4% 0;
       }
       /*portfolio-1.html*/
       .portfolio-1 .content {
