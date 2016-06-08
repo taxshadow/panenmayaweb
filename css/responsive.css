@@ -1923,7 +1923,7 @@
         }
        .about .content .title {
           font-size: 100%;
-          width: 40%;
+          width: 45%;
         }
         .about .content .title h3 {
           font-size: 20px;
@@ -2122,7 +2122,7 @@
 
       @media (min-width: 992px) and (max-width: 1329px) {
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, 
+      .landing .content, .service .content, .portfolio-1 .content, .portfolio-2 .content, .portfolio .content, 
       .partner .content, .contact .content {
         margin-left: 70px;
       }
@@ -2155,18 +2155,18 @@
         width: 35%;
       }
       /*about.html*/
+        .about .content {
+          margin-left: 22%;
+        }
        .about .content .title {
           font-size: 100%;
-          width: 56%;
+          width: 45%;
         }
         .about .content .title h3 {
           font-size: 20px;
-          margin-left: 58%;
         }
         .about .content .title p {
           font-size: 14px;
-          margin-left: 32%;
-          margin-right: -25%;
         }
         .about .content .title:after {
           border-width: 12px;
@@ -2189,7 +2189,7 @@
         width: 22%;
       }
       .service .content .col-md-10 .col-md-3 h4 {
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 5px;
         margin-top: 31px;
       }
