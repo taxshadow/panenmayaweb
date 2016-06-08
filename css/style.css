@@ -572,6 +572,7 @@
     }
     .contact .btn-primary {
       width: 100%;
+      padding-top: 3%;
       height: 50px;
       background-image: none;
       background-color: transparent;
