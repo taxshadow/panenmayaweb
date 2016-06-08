@@ -164,7 +164,12 @@
       border-left-color: rgba(22, 160, 200, 0.9);
       border-width: 16px;
       margin-top: -20px;
-    }  
+    }
+    .about .content .title .scroll {
+      overflow: scroll;
+      overflow-x: hidden;
+      height: 55%;
+    }
 
     /*service.html*/
     .service .content {

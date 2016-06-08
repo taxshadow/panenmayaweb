@@ -194,8 +194,12 @@
   <script src="js/blockScroll.js"></script>
   <script src="js/app.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.nicescroll.js"></script>
   <script type="text/javascript">
-    var blockScroller = $("#main-wrap").blockScroll();
+    $(document).ready(function(){
+      $("html").niceScroll();
+      var blockScroller = $("#main-wrap").blockScroll();
+    });
   </script>
 </body>
 </html>
