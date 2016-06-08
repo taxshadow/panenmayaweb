@@ -556,19 +556,19 @@ body,html{
   }
   @media (min-width: 992px) and (max-width: 1329px){
      /*navbar*/
-     .navbar .contact p {
-      margin-left: -8px;
-     }
      .navbar .contact img:nth-child(1) {
       margin-left: 1px!important;
      } 
      .navbar .contact img:nth-child(2) {
-      margin-top: 15px!important;
+      margin-top: 8px!important;
       margin-left: 1px!important;
      }
       .navbar .contact img:nth-child(3) {
-        margin-top: 24px!important;
+        margin-top: 22px!important;
         margin-left: 1px!important;
+      }
+      .navbar .contact p:nth-child(2) {
+        margin-top: 5%;
       }
       .navbar {
         padding-top: 5px;
