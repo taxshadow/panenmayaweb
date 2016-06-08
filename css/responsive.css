@@ -322,6 +322,10 @@
           margin-top: 8px;
           margin-left: -5px;
         }
+        .contact .content #map1 .place {
+          height: 33%;
+          margin-bottom: -16%;
+        }
         #map1{
           display: all;
           height: 122%;
@@ -653,7 +657,9 @@
           margin-top: 8px;
           margin-left: -5px;
         }
-        
+        .contact .content #map1 .place {
+          height: 25%;
+        }
         #map1{
           display: all;
         }
@@ -979,7 +985,9 @@
           margin-top: 8px;
           margin-left: -5px;
         }
-        
+         .contact .content #map1 .place {
+          height: 25%;
+        }
         #map1{
           display: all;
         }
@@ -1311,6 +1319,9 @@
           margin-top: 6px;
           margin-left: -5px;
         }
+         .contact .content #map1 .place {
+          height: 14%;
+        }
         
         #map1{
           display: all;
@@ -1574,7 +1585,10 @@
           margin-top: 8px;
           margin-left: -5px;
         }
-        
+         .contact .content #map1 .place {
+          height: 13%;
+          padding-top: 3%; 
+        }
         #map1{
           display: all;
         }
@@ -1871,7 +1885,10 @@
           margin-top: 8px;
           margin-left: -5px;
         }
-        
+         .contact .content #map1 .place {
+          height: 13%;
+          padding-top: 3%;
+        }
         #map1{
           display: all;
         }
@@ -2126,6 +2143,11 @@
         #map1 {
           width: 128%;
         }
+        .contact .content #map1 .place {
+          height: 12%;
+          padding-top: 6%;
+          width: 128%
+        }
       }
 
       @media (min-width: 992px) and (max-width: 1329px) {
@@ -2315,6 +2337,11 @@
     #map1 {
       width: 128%;
       height: 100%;
+    }
+     .contact .content #map1 .place {
+      height: 12%;
+      padding-top: 6%;
+      width: 128%
     }
 	}
 
