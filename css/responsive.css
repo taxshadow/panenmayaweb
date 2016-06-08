@@ -1873,7 +1873,7 @@
 
       @media (min-width: 768px) and (max-width: 991px){
         /*content*/
-      .landing .content, .about .content, .service .content, .portfolio .content,
+      .landing .content, .service .content, .portfolio .content,
       .partner .content, .contact .content {
         margin-left: 70px;
       }
@@ -1915,18 +1915,18 @@
         width: 13%;
       }
       /*about.html*/
+        .about .content {
+          margin-left: 25%;
+        }
        .about .content .title {
           font-size: 100%;
           width: 56%;
         }
         .about .content .title h3 {
           font-size: 20px;
-          text-align: end;
         }
         .about .content .title p {
           font-size: 14px;
-          margin-left: 33%;
-          margin-right: -25%;
         }
         .about .content .title:after {
           border-width: 12px;
