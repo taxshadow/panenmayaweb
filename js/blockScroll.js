@@ -29,7 +29,7 @@
     if(settings.fadeBlocks)
     {
       this.children().each(function() {
-        $(this).css('opacity','0');
+        $(this).css('opacity','1');
       });
     }
 
