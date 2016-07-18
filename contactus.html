@@ -78,10 +78,22 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 pesan">
-        <input type="text" class="form-control" placeholder="NAME" id="name">
-        <input type="email" class="form-control" placeholder="EMAIL" id="email">
-        <textarea rows="7" class="form-control" placeholder="MESSAGE" id="message"></textarea><br>
-        <a href="#" type="button" class="btn btn-primary text-center">Send</a>
+        <form action="action_input.php" method="POST" enctype="multipart/form-data">
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td><input type="text" name="nama" size="20" placeholder="name"></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="email" size="50" placeholder="email"></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="pesan" size="30" placeholder="message"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="SEND">&nbsp;&nbsp;
+        </tr>
+        </table>
+    </form>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3 map">
       	<div id="map1">

@@ -569,6 +569,9 @@ body,html{
       .navbar-nav .social-media {
         margin-bottom: 15px;
       }
+      .social-media a {
+        width: 40px;
+      }
       .navbar .contact img:nth-child(1) {
         margin-top: -4px;
       }

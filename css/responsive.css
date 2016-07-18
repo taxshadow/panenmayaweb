@@ -1901,8 +1901,8 @@
 
       @media (min-width: 768px) and (max-width: 991px){
         /*content*/
-      .landing .content, .service .content, .portfolio .content,
-      .partner .content, .contact .content {
+      .landing .content, .portfolio .content,
+      .contact .content {
         margin-left: 70px;
       }
       .about .content, .service .content {
@@ -1960,6 +1960,9 @@
           border-width: 12px;
         }
       /*service.html*/
+      .service .content {
+        margin-left: 25%;
+      }
        .service .content #content-1, .service .content #content-2, .service .content #content-3, .service .content #content-4, .service .content #content-5, .service .content #content-6, .service .content #content-7, .service .content #content-8 {
         padding-top: 4.5%;
       }
@@ -1968,8 +1971,7 @@
         font-size: 21px;
       }
       .service .content .col-md-10 {
-        width: 78.5%;
-        padding-left: 17%;
+        width: 73.5%;
       }
       .service .content .col-md-10 .col-md-3 {
         height: 12.5%;
@@ -2092,6 +2094,7 @@
       }
       /*partner.html*/
       .partner .content {
+        margin-left: 25%;
         background-size: 350%;
       }
       .partner .content .col-sm-6 {
@@ -2104,9 +2107,8 @@
         margin-left: 3%;
       }
       .partner .content .col-md-10 {
-        height: 100%
-        width: 77.5%;
-        padding-left: 17%;
+        height: 100%;
+        width: 69%;
       }
       .partner .content .col-md-2 {
         width: 23.3%;
